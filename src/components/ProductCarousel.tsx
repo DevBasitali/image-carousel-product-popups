@@ -1,4 +1,3 @@
-
 import { useState } from "react";
 import { ArrowLeft, ArrowRight } from "lucide-react";
 import ProductCard from "./ProductCard";
@@ -19,49 +18,53 @@ const ProductCarousel = () => {
   const products: Product[] = [
     {
       id: 1,
-      name: "Modern Laptop",
-      description: "High-performance laptop for professionals",
-      mainImage: "https://images.unsplash.com/photo-1531297484001-80022131f5a1?w=400&h=300&fit=crop",
+      name: "STEVEN AIRLINE 1",
+      description: "A legendary wide-body aircraft known as the “Queen of the Skies”",
+      mainImage:
+        "1.JPG",
       galleryImages: [
-        "https://images.unsplash.com/photo-1531297484001-80022131f5a1?w=600&h=400&fit=crop",
-        "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?w=600&h=400&fit=crop",
-        "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?w=600&h=400&fit=crop",
-        "https://images.unsplash.com/photo-1649972904349-6e44c42644a7?w=600&h=400&fit=crop"
-      ]
+        "1(3).JPG",
+        "1(2).JPG",
+        "1(1).JPG",
+        // "https://images.unsplash.com/photo-1649972904349-6e44c42644a7?w=600&h=400&fit=crop",
+      ],
     },
     {
       id: 2,
-      name: "Professional Workspace",
-      description: "Complete workspace setup for productivity",
-      mainImage: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=400&h=300&fit=crop",
+      name: "STEVEN AIRLINE 2",
+      description: "A legendary wide-body aircraft known as the “Queen of the Skies”",
+      mainImage:
+        "3.JPG",
       galleryImages: [
-        "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=600&h=400&fit=crop",
-        "https://images.unsplash.com/photo-1649972904349-6e44c42644a7?w=600&h=400&fit=crop",
-        "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?w=600&h=400&fit=crop"
-      ]
+        "3(3).JPG",
+        "3(4).JPG",
+        "3(5).JPG",
+      ],
     },
     {
       id: 3,
-      name: "Nature Collection",
-      description: "Beautiful landscapes and scenery",
-      mainImage: "https://images.unsplash.com/photo-1500673922987-e212871fec22?w=400&h=300&fit=crop",
+      name: "STEVEN AIRLINE 3",
+      description: "A legendary wide-body aircraft known as the “Queen of the Skies”",
+      mainImage:
+        "2.JPG",
       galleryImages: [
-        "https://images.unsplash.com/photo-1500673922987-e212871fec22?w=600&h=400&fit=crop",
-        "https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=600&h=400&fit=crop",
-        "https://images.unsplash.com/photo-1582562124811-c09040d0a901?w=600&h=400&fit=crop"
-      ]
+        // "https://images.unsplash.com/photo-1500673922987-e212871fec22?w=600&h=400&fit=crop",
+        // "https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=600&h=400&fit=crop",
+        // "https://images.unsplash.com/photo-1582562124811-c09040d0a901?w=600&h=400&fit=crop",
+      ],
     },
     {
       id: 4,
-      name: "Tech Setup",
-      description: "Modern technology and gadgets",
-      mainImage: "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?w=400&h=300&fit=crop",
+      name: "STEVEN AIRLINE 3",
+      description: "A legendary wide-body aircraft known as the “Queen of the Skies”",
+      mainImage:
+        "8.JPG",
       galleryImages: [
-        "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?w=600&h=400&fit=crop",
-        "https://images.unsplash.com/photo-1531297484001-80022131f5a1?w=600&h=400&fit=crop",
-        "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?w=600&h=400&fit=crop"
-      ]
-    }
+        "8(1).JPG",
+        "8(2).JPG",
+        // "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?w=600&h=400&fit=crop",
+      ],
+    },
   ];
 
   const itemsPerPage = 3;

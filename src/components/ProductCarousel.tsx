@@ -118,31 +118,7 @@ const ProductCarousel = () => {
   return (
     <div className="relative px-4 sm:px-6 lg:px-8">
       {/* Page Navigation */}
-      <div className="flex items-center justify-between mb-6 sm:mb-8">
-        <button
-          onClick={prevPage}
-          disabled={pageIndex === 0}
-          className="flex items-center gap-1 sm:gap-2 px-2 sm:px-4 py-1.5 sm:py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 disabled:bg-gray-300 disabled:cursor-not-allowed transition-colors text-sm sm:text-base"
-        >
-          <ChevronLeft className="h-4 w-4 sm:h-5 sm:w-5" />
-          <span className="hidden sm:inline">Previous Page</span>
-          <span className="sm:hidden">Prev</span>
-        </button>
-        
-        <div className="text-sm sm:text-lg font-medium">
-          Page {pageIndex + 1} of {totalPages}
-        </div>
-        
-        <button
-          onClick={nextPage}
-          disabled={pageIndex === totalPages - 1}
-          className="flex items-center gap-1 sm:gap-2 px-2 sm:px-4 py-1.5 sm:py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 disabled:bg-gray-300 disabled:cursor-not-allowed transition-colors text-sm sm:text-base"
-        >
-          <span className="hidden sm:inline">Next Page</span>
-          <span className="sm:hidden">Next</span>
-          <ChevronRight className="h-4 w-4 sm:h-5 sm:w-5" />
-        </button>
-      </div>
+      
 
       {/* Carousels */}
       <div className="space-y-8 sm:space-y-12">
@@ -152,7 +128,9 @@ const ProductCarousel = () => {
           const displayProducts = carousel.AllProducts.slice(currentIndex, currentIndex + displaySize);
 
           return (
-            <div key={carousel.id} className="relative bg-gray-50 p-4 sm:p-6 rounded-lg">
+            <div key={carousel.id} className="relative bg-gray-50 p-4 sm:p-6 rounded-lg" 
+            
+            >
               <h2 className="text-lg sm:text-2xl font-bold mb-4 sm:mb-6">{carousel.title}</h2>
               
               <div className="relative">
@@ -212,6 +190,32 @@ const ProductCarousel = () => {
             </div>
           );
         })}
+      </div>
+
+      <div className="flex items-center justify-between mt-6 sm:mb-8">
+        <button
+          onClick={prevPage}
+          disabled={pageIndex === 0}
+          className="flex items-center gap-1 sm:gap-2 px-2 sm:px-4 py-1.5 sm:py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 disabled:bg-gray-300 disabled:cursor-not-allowed transition-colors text-sm sm:text-base"
+        >
+          <ChevronLeft className="h-4 w-4 sm:h-5 sm:w-5" />
+          <span className="hidden sm:inline">Previous Page</span>
+          <span className="sm:hidden">Prev</span>
+        </button>
+        
+        <div className="text-sm text-white sm:text-lg font-medium">
+          Page {pageIndex + 1} of {totalPages}
+        </div>
+        
+        <button
+          onClick={nextPage}
+          disabled={pageIndex === totalPages - 1}
+          className="flex items-center gap-1 sm:gap-2 px-2 sm:px-4 py-1.5 sm:py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 disabled:bg-gray-300 disabled:cursor-not-allowed transition-colors text-sm sm:text-base"
+        >
+          <span className="hidden sm:inline">Next Page</span>
+          <span className="sm:hidden">Next</span>
+          <ChevronRight className="h-4 w-4 sm:h-5 sm:w-5" />
+        </button>
       </div>
 
       {/* Page Dots */}

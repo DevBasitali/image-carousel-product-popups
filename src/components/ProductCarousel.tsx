@@ -1,268 +1,4 @@
-// import { useState } from "react";
-// import { ArrowLeft, ArrowRight } from "lucide-react";
-// import ProductCard from "./ProductCard";
-// import LightboxGallery from "./LightboxGallery";
-
-// interface Product {
-//   id: number;
-//   name: string;
-//   description: string;
-//   mainImage: string;
-//   galleryImages: string[];
-// }
-
-// const ProductCarousel = () => {
-//   const [currentIndex, setCurrentIndex] = useState(0);
-//   const [selectedProduct, setSelectedProduct] = useState<Product | null>(null);
-
-//   const products: Product[] = [
-//     {
-//       id: 1,
-//       name: "STEVEN AIRLINE 1",
-//       description:
-//         "A legendary wide-body aircraft known as the “Queen of the Skies”",
-//       mainImage: "1.JPG",
-//       galleryImages: [
-//         "1(3).JPG",
-//         "1(2).JPG",
-//         "1(1).JPG",
-//       ],
-//     },
-//     {
-//       id: 2,
-//       name: "STEVEN AIRLINE 2",
-//       description:
-//         "A legendary wide-body aircraft known as the “Queen of the Skies”",
-//       mainImage: "3.JPG",
-//       galleryImages: ["3(3).JPG", "3(4).JPG", "3(5).JPG"],
-//     },
-//     {
-//       id: 3,
-//       name: "STEVEN AIRLINE 3",
-//       description:
-//         "A legendary wide-body aircraft known as the “Queen of the Skies”",
-//       mainImage: "2.JPG",
-//       galleryImages: [
-//         "2.JPG",
-//       ],
-//     },
-//     {
-//       id: 4,
-//       name: "STEVEN AIRLINE 3",
-//       description:
-//         "A legendary wide-body aircraft known as the “Queen of the Skies”",
-//       mainImage: "8.JPG",
-//       galleryImages: [
-//         "8(1).JPG",
-//         "8(2).JPG",
-//       ],
-//     },
-//     {
-//       id: 4,
-//       name: "STEVEN AIRLINE 3",
-//       description:
-//         "A legendary wide-body aircraft known as the “Queen of the Skies”",
-//       mainImage: "8.JPG",
-//       galleryImages: [
-//         "8(1).JPG",
-//         "8(2).JPG",
-//       ],
-//     },
-//     {
-//       id: 4,
-//       name: "STEVEN AIRLINE 3",
-//       description:
-//         "A legendary wide-body aircraft known as the “Queen of the Skies”",
-//       mainImage: "8.JPG",
-//       galleryImages: [
-//         "8(1).JPG",
-//         "8(2).JPG",
-//       ],
-//     },
-//     {
-//       id: 4,
-//       name: "STEVEN AIRLINE 3",
-//       description:
-//         "A legendary wide-body aircraft known as the “Queen of the Skies”",
-//       mainImage: "8.JPG",
-//       galleryImages: [
-//         "8(1).JPG",
-//         "8(2).JPG",
-//       ],
-//     },
-//     {
-//       id: 4,
-//       name: "STEVEN AIRLINE 3",
-//       description:
-//         "A legendary wide-body aircraft known as the “Queen of the Skies”",
-//       mainImage: "8.JPG",
-//       galleryImages: [
-//         "8(1).JPG",
-//         "8(2).JPG",
-//       ],
-//     },
-//      {
-//       id: 1,
-//       name: "STEVEN AIRLINE 1",
-//       description:
-//         "A legendary wide-body aircraft known as the “Queen of the Skies”",
-//       mainImage: "1.JPG",
-//       galleryImages: [
-//         "1(3).JPG",
-//         "1(2).JPG",
-//         "1(1).JPG",
-//       ],
-//     },
-//     {
-//       id: 2,
-//       name: "STEVEN AIRLINE 2",
-//       description:
-//         "A legendary wide-body aircraft known as the “Queen of the Skies”",
-//       mainImage: "3.JPG",
-//       galleryImages: ["3(3).JPG", "3(4).JPG", "3(5).JPG"],
-//     },
-//     {
-//       id: 3,
-//       name: "STEVEN AIRLINE 3",
-//       description:
-//         "A legendary wide-body aircraft known as the “Queen of the Skies”",
-//       mainImage: "2.JPG",
-//       galleryImages: [
-//         "2.JPG",
-//       ],
-//     },
-//     {
-//       id: 4,
-//       name: "STEVEN AIRLINE 3",
-//       description:
-//         "A legendary wide-body aircraft known as the “Queen of the Skies”",
-//       mainImage: "8.JPG",
-//       galleryImages: [
-//         "8(1).JPG",
-//         "8(2).JPG",
-//       ],
-//     },
-//     {
-//       id: 4,
-//       name: "STEVEN AIRLINE 3",
-//       description:
-//         "A legendary wide-body aircraft known as the “Queen of the Skies”",
-//       mainImage: "8.JPG",
-//       galleryImages: [
-//         "8(1).JPG",
-//         "8(2).JPG",
-//       ],
-//     },
-//     {
-//       id: 4,
-//       name: "STEVEN AIRLINE 3",
-//       description:
-//         "A legendary wide-body aircraft known as the “Queen of the Skies”",
-//       mainImage: "8.JPG",
-//       galleryImages: [
-//         "8(1).JPG",
-//         "8(2).JPG",
-//       ],
-//     },
-//     {
-//       id: 4,
-//       name: "STEVEN AIRLINE 3",
-//       description:
-//         "A legendary wide-body aircraft known as the “Queen of the Skies”",
-//       mainImage: "8.JPG",
-//       galleryImages: [
-//         "8(1).JPG",
-//         "8(2).JPG",
-//       ],
-//     },
-//     {
-//       id: 4,
-//       name: "STEVEN AIRLINE 3",
-//       description:
-//         "A legendary wide-body aircraft known as the “Queen of the Skies”",
-//       mainImage: "8.JPG",
-//       galleryImages: [
-//         "8(1).JPG",
-//         "8(2).JPG",
-//       ],
-//     },
-//   ];
-
-//   const itemsPerPage = 48; 
-//   const productsPerRow = 4;
-
-//   const totalPages = Math.ceil(products.length / itemsPerPage);
-
-//   const nextSlide = () => {
-//     setCurrentIndex((prev) => (prev + 1) % totalPages);
-//   };
-
-//   const prevSlide = () => {
-//     setCurrentIndex((prev) => (prev - 1 + totalPages) % totalPages);
-//   };
-
-//   const getCurrentProducts = () => {
-//     const start = currentIndex * itemsPerPage;
-//     return products.slice(start, start + itemsPerPage);
-//   };
-
-//   return (
-//     <div className="relative">
-//       <div className="flex items-center justify-center mb-8">
-//         <button
-//           onClick={prevSlide}
-//           className="p-3 rounded-full bg-white shadow-lg hover:shadow-xl transition-all duration-200 mr-4 hover:scale-105"
-//           disabled={currentIndex === 0}
-//         >
-//           <ArrowLeft className="h-6 w-6 text-gray-600" />
-//         </button>
-
-//         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 flex-1 max-w-6xl mx-4">
-//           {getCurrentProducts().map((product) => (
-//             <ProductCard
-//               key={product.id}
-//               product={product}
-//               onClick={() => setSelectedProduct(product)}
-//             />
-//           ))}
-//         </div>
-
-//         <button
-//           onClick={nextSlide}
-//           className="p-3 rounded-full bg-white shadow-lg hover:shadow-xl transition-all duration-200 ml-4 hover:scale-105"
-//           disabled={currentIndex === totalPages - 1}
-//         >
-//           <ArrowRight className="h-6 w-6 text-gray-600" />
-//         </button>
-//       </div>
-
-//       <div className="flex justify-center space-x-2 mt-6">
-//         {Array.from({ length: totalPages }).map((_, index) => (
-//           <button
-//             key={index}
-//             onClick={() => setCurrentIndex(index)}
-//             className={`w-3 h-3 rounded-full transition-all duration-200 ${
-//               index === currentIndex
-//                 ? "bg-blue-600 scale-110"
-//                 : "bg-gray-300 hover:bg-gray-400"
-//             }`}
-//           />
-//         ))}
-//       </div>
-
-//       {selectedProduct && (
-//         <LightboxGallery
-//           product={selectedProduct}
-//           onClose={() => setSelectedProduct(null)}
-//         />
-//       )}
-//     </div>
-//   );
-// };
-
-// export default ProductCarousel;
-
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { ArrowLeft, ArrowRight, ChevronLeft, ChevronRight } from "lucide-react";
 import ProductCard from "./ProductCard";
 import LightboxGallery from "./LightboxGallery";
@@ -285,6 +21,19 @@ const ProductCarousel = () => {
   const [pageIndex, setPageIndex] = useState(0);
   const [carouselIndexes, setCarouselIndexes] = useState<{ [key: string]: number }>({});
   const [selectedProduct, setSelectedProduct] = useState<Product | null>(null);
+  const [isMobile, setIsMobile] = useState(false);
+
+  // Check if device is mobile
+  useEffect(() => {
+    const checkMobile = () => {
+      setIsMobile(window.innerWidth < 768);
+    };
+    
+    checkMobile();
+    window.addEventListener('resize', checkMobile);
+    
+    return () => window.removeEventListener('resize', checkMobile);
+  }, []);
 
   const allProducts: Product[] = [
     {
@@ -1817,9 +1566,10 @@ const ProductCarousel = () => {
     },
   ];
 
-  const productsPerCarousel = 16; // 16 products per carousel
-  const carouselsPerPage = 3; // 3 carousels per page
-  const productsPerPage = productsPerCarousel * carouselsPerPage; // 48 products per page
+  // Responsive values
+  const productsPerCarousel = isMobile ? 4 : 16; // 4 products per carousel on mobile, 16 on desktop
+  const carouselsPerPage = isMobile ? 1 : 3; // 1 carousel per page on mobile, 3 on desktop
+  const productsPerPage = productsPerCarousel * carouselsPerPage;
 
   // Calculate total pages needed
   const totalPages = Math.ceil(allProducts.length / productsPerPage);
@@ -1865,15 +1615,17 @@ const ProductCarousel = () => {
 
   const nextCarouselSlide = (carouselId: string, products: Product[]) => {
     const currentIndex = getCarouselIndex(carouselId);
-    if (currentIndex < products.length - 1) {
-      setCarouselIndex(carouselId, currentIndex + 1);
+    const slideSize = isMobile ? 2 : 16; // Show 2 at a time on mobile
+    if (currentIndex < products.length - slideSize) {
+      setCarouselIndex(carouselId, currentIndex + slideSize);
     }
   };
 
   const prevCarouselSlide = (carouselId: string) => {
     const currentIndex = getCarouselIndex(carouselId);
+    const slideSize = isMobile ? 2 : 16;
     if (currentIndex > 0) {
-      setCarouselIndex(carouselId, currentIndex - 1);
+      setCarouselIndex(carouselId, Math.max(0, currentIndex - slideSize));
     }
   };
 
@@ -1892,62 +1644,73 @@ const ProductCarousel = () => {
   const carousels = getCarouselsForCurrentPage();
 
   return (
-    <div className="relative">
+    <div className="relative px-4 sm:px-6 lg:px-8">
       {/* Page Navigation */}
-      <div className="flex items-center justify-between mb-8">
+      <div className="flex items-center justify-between mb-6 sm:mb-8">
         <button
           onClick={prevPage}
           disabled={pageIndex === 0}
-          className="flex items-center gap-2 px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 disabled:bg-gray-300 disabled:cursor-not-allowed transition-colors"
+          className="flex items-center gap-1 sm:gap-2 px-2 sm:px-4 py-1.5 sm:py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 disabled:bg-gray-300 disabled:cursor-not-allowed transition-colors text-sm sm:text-base"
         >
-          <ChevronLeft className="h-5 w-5" />
-          Previous Page
+          <ChevronLeft className="h-4 w-4 sm:h-5 sm:w-5" />
+          <span className="hidden sm:inline">Previous Page</span>
+          <span className="sm:hidden">Prev</span>
         </button>
         
-        <div className="text-lg font-medium">
+        <div className="text-sm sm:text-lg font-medium">
           Page {pageIndex + 1} of {totalPages}
         </div>
         
         <button
           onClick={nextPage}
           disabled={pageIndex === totalPages - 1}
-          className="flex items-center gap-2 px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 disabled:bg-gray-300 disabled:cursor-not-allowed transition-colors"
+          className="flex items-center gap-1 sm:gap-2 px-2 sm:px-4 py-1.5 sm:py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 disabled:bg-gray-300 disabled:cursor-not-allowed transition-colors text-sm sm:text-base"
         >
-          Next Page
-          <ChevronRight className="h-5 w-5" />
+          <span className="hidden sm:inline">Next Page</span>
+          <span className="sm:hidden">Next</span>
+          <ChevronRight className="h-4 w-4 sm:h-5 sm:w-5" />
         </button>
       </div>
 
       {/* Carousels */}
-      <div className="space-y-12">
+      <div className="space-y-8 sm:space-y-12">
         {carousels.map((carousel) => {
           const currentIndex = getCarouselIndex(carousel.id);
-          const displayProducts = carousel.products.slice(currentIndex, currentIndex + 16);
+          const displaySize = isMobile ? 2 : 16; // Show 2 products on mobile, 16 on desktop
+          const displayProducts = carousel.products.slice(currentIndex, currentIndex + displaySize);
 
           return (
-            <div key={carousel.id} className="relative bg-gray-50 p-6 rounded-lg">
-              <h2 className="text-2xl font-bold mb-6">{carousel.title}</h2>
+            <div key={carousel.id} className="relative bg-gray-50 p-4 sm:p-6 rounded-lg">
+              <h2 className="text-lg sm:text-2xl font-bold mb-4 sm:mb-6">{carousel.title}</h2>
               
               <div className="relative">
-                {/* Carousel Navigation */}
-                <button
-                  onClick={() => prevCarouselSlide(carousel.id)}
-                  disabled={currentIndex === 0}
-                  className="absolute left-0 top-1/2 -translate-y-1/2 z-10 p-2 rounded-full bg-white shadow-lg hover:shadow-xl disabled:opacity-50 disabled:cursor-not-allowed"
-                >
-                  <ArrowLeft className="h-5 w-5" />
-                </button>
+                {/* Carousel Navigation - Only show if there are more products than display size */}
+                {carousel.products.length > displaySize && (
+                  <>
+                    <button
+                      onClick={() => prevCarouselSlide(carousel.id)}
+                      disabled={currentIndex === 0}
+                      className="absolute left-0 sm:left-2 top-1/2 -translate-y-1/2 z-10 p-1.5 sm:p-2 rounded-full bg-white shadow-lg hover:shadow-xl disabled:opacity-50 disabled:cursor-not-allowed"
+                    >
+                      <ArrowLeft className="h-4 w-4 sm:h-5 sm:w-5" />
+                    </button>
 
-                <button
-                  onClick={() => nextCarouselSlide(carousel.id, carousel.products)}
-                  disabled={currentIndex >= carousel.products.length - 16}
-                  className="absolute right-0 top-1/2 -translate-y-1/2 z-10 p-2 rounded-full bg-white shadow-lg hover:shadow-xl disabled:opacity-50 disabled:cursor-not-allowed"
-                >
-                  <ArrowRight className="h-5 w-5" />
-                </button>
+                    <button
+                      onClick={() => nextCarouselSlide(carousel.id, carousel.products)}
+                      disabled={currentIndex >= carousel.products.length - displaySize}
+                      className="absolute right-0 sm:right-2 top-1/2 -translate-y-1/2 z-10 p-1.5 sm:p-2 rounded-full bg-white shadow-lg hover:shadow-xl disabled:opacity-50 disabled:cursor-not-allowed"
+                    >
+                      <ArrowRight className="h-4 w-4 sm:h-5 sm:w-5" />
+                    </button>
+                  </>
+                )}
 
-                {/* Product Grid - 16 items (4x4) */}
-                <div className="grid grid-cols-4 gap-4 px-12">
+                {/* Product Grid - Responsive */}
+                <div className={`grid gap-3 sm:gap-4 ${
+                  isMobile 
+                    ? 'grid-cols-2 px-0' 
+                    : 'grid-cols-2 sm:grid-cols-3 md:grid-cols-4 px-12'
+                }`}>
                   {displayProducts.map((product, index) => (
                     <ProductCard
                       key={`${carousel.id}-${product.id}-${index}`}
@@ -1959,15 +1722,15 @@ const ProductCarousel = () => {
               </div>
 
               {/* Carousel Dots */}
-              {carousel.products.length > 16 && (
-                <div className="flex justify-center space-x-2 mt-4">
-                  {Array.from({ length: Math.ceil(carousel.products.length / 16) }).map((_, index) => (
+              {carousel.products.length > displaySize && (
+                <div className="flex justify-center space-x-1.5 sm:space-x-2 mt-4">
+                  {Array.from({ length: Math.ceil(carousel.products.length / displaySize) }).map((_, index) => (
                     <button
                       key={index}
-                      onClick={() => setCarouselIndex(carousel.id, index * 16)}
-                      className={`w-2 h-2 rounded-full transition-all ${
-                        Math.floor(currentIndex / 16) === index
-                          ? "bg-blue-600 w-6"
+                      onClick={() => setCarouselIndex(carousel.id, index * displaySize)}
+                      className={`w-1.5 h-1.5 sm:w-2 sm:h-2 rounded-full transition-all ${
+                        Math.floor(currentIndex / displaySize) === index
+                          ? "bg-blue-600 w-4 sm:w-6"
                           : "bg-gray-300"
                       }`}
                     />
@@ -1980,12 +1743,12 @@ const ProductCarousel = () => {
       </div>
 
       {/* Page Dots */}
-      <div className="flex justify-center space-x-2 mt-8">
+      <div className="flex justify-center space-x-1.5 sm:space-x-2 mt-6 sm:mt-8">
         {Array.from({ length: totalPages }).map((_, index) => (
           <button
             key={index}
             onClick={() => setPageIndex(index)}
-            className={`w-3 h-3 rounded-full transition-all duration-200 ${
+            className={`w-2 h-2 sm:w-3 sm:h-3 rounded-full transition-all duration-200 ${
               index === pageIndex
                 ? "bg-blue-600 scale-110"
                 : "bg-gray-300 hover:bg-gray-400"

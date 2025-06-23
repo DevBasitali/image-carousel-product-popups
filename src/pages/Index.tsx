@@ -4,7 +4,7 @@ import Navigation from "@/components/Navigation";
 
 const Index = () => {
   return (
-    <div className="min-h-screen bg-gray-50">
+    <div className="min-h-screen bg-white-50">
       <Navigation />
       <main className="container mx-auto px-4 py-8">
         <div className="text-center mb-12">

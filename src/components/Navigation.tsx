@@ -1,5 +1,5 @@
 
-import { ShoppingBag, Menu } from "lucide-react";
+import { ShoppingBag, Menu, PlaneIcon } from "lucide-react";
 
 const Navigation = () => {
   return (
@@ -7,23 +7,14 @@ const Navigation = () => {
       <div className="container mx-auto px-4">
         <div className="flex justify-between items-center h-16">
           <div className="flex items-center space-x-2">
-            <ShoppingBag className="h-8 w-8 text-blue-600" />
-            <span className="text-2xl font-bold text-gray-800">Gallery</span>
+            <PlaneIcon className="h-8 w-8 text-blue-600" />
+            <span className="text-2xl font-bold text-gray-800">Aircraft Gallery</span>
           </div>
           
           <nav className="hidden md:flex space-x-8">
-            <a href="#" className="text-gray-600 hover:text-blue-600 transition-colors duration-200 font-medium">
+            <a href="/" className="text-gray-600 hover:text-blue-600 transition-colors duration-200 font-medium">
               Home
             </a>
-            {/* <a href="#" className="text-gray-600 hover:text-blue-600 transition-colors duration-200 font-medium">
-              Products
-            </a>
-            <a href="#" className="text-gray-600 hover:text-blue-600 transition-colors duration-200 font-medium">
-              About
-            </a>
-            <a href="#" className="text-gray-600 hover:text-blue-600 transition-colors duration-200 font-medium">
-              Contact
-            </a> */}
           </nav>
 
           <button className="md:hidden p-2 rounded-md hover:bg-gray-100 transition-colors">

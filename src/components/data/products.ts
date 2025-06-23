@@ -1,4 +1,12 @@
-const allProducts: Product[] = [
+export interface Product {
+  id: number;
+  name: string;
+  description: string;
+  mainImage: string;
+  galleryImages: string[];
+}
+
+export const AllProducts: Product[] = [
     {
       id: 1,
       name: "STEVEN AIRLINE 1",
@@ -1528,3 +1536,7 @@ const allProducts: Product[] = [
       ],
     },
   ];
+
+export const getProductById = (id: number): Product | undefined => {
+  return AllProducts.find(product => product.id === id);
+};

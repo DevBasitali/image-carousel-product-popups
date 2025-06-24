@@ -8,1533 +8,512 @@ export interface Product {
 
 export const AllProducts: Product[] = [
     {
-      id: 1,
-      name: "STEVEN AIRLINE 1",
-      description:
-        "A legendary wide-body aircraft known as the “Queen of the Skies”",
-      mainImage: "1.JPG",
-      galleryImages: [
-        "1(3).JPG",
-        "1(2).JPG",
-        "1(1).JPG",
-      ],
-    },
-    {
-      id: 2,
-      name: "STEVEN AIRLINE 2",
-      description:
-        "A legendary wide-body aircraft known as the “Queen of the Skies”",
-      mainImage: "3.JPG",
-      galleryImages: ["3(3).JPG", "3(4).JPG", "3(5).JPG"],
-    },
-    {
-      id: 3,
-      name: "STEVEN AIRLINE 3",
-      description:
-        "A legendary wide-body aircraft known as the “Queen of the Skies”",
-      mainImage: "2.JPG",
-      galleryImages: [
-        "2.JPG",
-      ],
-    },
-    {
-      id: 4,
-      name: "STEVEN AIRLINE 3",
-      description:
-        "A legendary wide-body aircraft known as the “Queen of the Skies”",
-      mainImage: "8.JPG",
-      galleryImages: [
-        "8(1).JPG",
-        "8(2).JPG",
-      ],
-    },
-    {
-      id: 4,
-      name: "STEVEN AIRLINE 3",
-      description:
-        "A legendary wide-body aircraft known as the “Queen of the Skies”",
-      mainImage: "8.JPG",
-      galleryImages: [
-        "8(1).JPG",
-        "8(2).JPG",
-      ],
-    },
-    {
-      id: 4,
-      name: "STEVEN AIRLINE 3",
-      description:
-        "A legendary wide-body aircraft known as the “Queen of the Skies”",
-      mainImage: "8.JPG",
-      galleryImages: [
-        "8(1).JPG",
-        "8(2).JPG",
-      ],
-    },
-    {
-      id: 4,
-      name: "STEVEN AIRLINE 3",
-      description:
-        "A legendary wide-body aircraft known as the “Queen of the Skies”",
-      mainImage: "8.JPG",
-      galleryImages: [
-        "8(1).JPG",
-        "8(2).JPG",
-      ],
-    },
-    {
-      id: 4,
-      name: "STEVEN AIRLINE 3",
-      description:
-        "A legendary wide-body aircraft known as the “Queen of the Skies”",
-      mainImage: "8.JPG",
-      galleryImages: [
-        "8(1).JPG",
-        "8(2).JPG",
-      ],
-    },
-     {
-      id: 1,
-      name: "STEVEN AIRLINE 1",
-      description:
-        "A legendary wide-body aircraft known as the “Queen of the Skies”",
-      mainImage: "1.JPG",
-      galleryImages: [
-        "1(3).JPG",
-        "1(2).JPG",
-        "1(1).JPG",
-      ],
-    },
-    {
-      id: 2,
-      name: "STEVEN AIRLINE 2",
-      description:
-        "A legendary wide-body aircraft known as the “Queen of the Skies”",
-      mainImage: "3.JPG",
-      galleryImages: ["3(3).JPG", "3(4).JPG", "3(5).JPG"],
-    },
-    {
-      id: 3,
-      name: "STEVEN AIRLINE 3",
-      description:
-        "A legendary wide-body aircraft known as the “Queen of the Skies”",
-      mainImage: "2.JPG",
-      galleryImages: [
-        "2.JPG",
-      ],
-    },
-    {
-      id: 4,
-      name: "STEVEN AIRLINE 3",
-      description:
-        "A legendary wide-body aircraft known as the “Queen of the Skies”",
-      mainImage: "8.JPG",
-      galleryImages: [
-        "8(1).JPG",
-        "8(2).JPG",
-      ],
-    },
-    {
-      id: 4,
-      name: "STEVEN AIRLINE 3",
-      description:
-        "A legendary wide-body aircraft known as the “Queen of the Skies”",
-      mainImage: "8.JPG",
-      galleryImages: [
-        "8(1).JPG",
-        "8(2).JPG",
-      ],
-    },
-    {
-      id: 4,
-      name: "STEVEN AIRLINE 3",
-      description:
-        "A legendary wide-body aircraft known as the “Queen of the Skies”",
-      mainImage: "8.JPG",
-      galleryImages: [
-        "8(1).JPG",
-        "8(2).JPG",
-      ],
-    },
-    {
-      id: 4,
-      name: "STEVEN AIRLINE 3",
-      description:
-        "A legendary wide-body aircraft known as the “Queen of the Skies”",
-      mainImage: "8.JPG",
-      galleryImages: [
-        "8(1).JPG",
-        "8(2).JPG",
-      ],
-    },
-    {
-      id: 4,
-      name: "STEVEN AIRLINE 3",
-      description:
-        "A legendary wide-body aircraft known as the “Queen of the Skies”",
-      mainImage: "8.JPG",
-      galleryImages: [
-        "8(1).JPG",
-        "8(2).JPG",
-      ],
-    },
-    {
-      id: 1,
-      name: "STEVEN AIRLINE 1",
-      description:
-        "A legendary wide-body aircraft known as the “Queen of the Skies”",
-      mainImage: "1.JPG",
-      galleryImages: [
-        "1(3).JPG",
-        "1(2).JPG",
-        "1(1).JPG",
-      ],
-    },
-    {
-      id: 2,
-      name: "STEVEN AIRLINE 2",
-      description:
-        "A legendary wide-body aircraft known as the “Queen of the Skies”",
-      mainImage: "3.JPG",
-      galleryImages: ["3(3).JPG", "3(4).JPG", "3(5).JPG"],
-    },
-    {
-      id: 3,
-      name: "STEVEN AIRLINE 3",
-      description:
-        "A legendary wide-body aircraft known as the “Queen of the Skies”",
-      mainImage: "2.JPG",
-      galleryImages: [
-        "2.JPG",
-      ],
-    },
-    {
-      id: 4,
-      name: "STEVEN AIRLINE 3",
-      description:
-        "A legendary wide-body aircraft known as the “Queen of the Skies”",
-      mainImage: "8.JPG",
-      galleryImages: [
-        "8(1).JPG",
-        "8(2).JPG",
-      ],
-    },
-    {
-      id: 4,
-      name: "STEVEN AIRLINE 3",
-      description:
-        "A legendary wide-body aircraft known as the “Queen of the Skies”",
-      mainImage: "8.JPG",
-      galleryImages: [
-        "8(1).JPG",
-        "8(2).JPG",
-      ],
-    },
-    {
-      id: 4,
-      name: "STEVEN AIRLINE 3",
-      description:
-        "A legendary wide-body aircraft known as the “Queen of the Skies”",
-      mainImage: "8.JPG",
-      galleryImages: [
-        "8(1).JPG",
-        "8(2).JPG",
-      ],
-    },
-    {
-      id: 4,
-      name: "STEVEN AIRLINE 3",
-      description:
-        "A legendary wide-body aircraft known as the “Queen of the Skies”",
-      mainImage: "8.JPG",
-      galleryImages: [
-        "8(1).JPG",
-        "8(2).JPG",
-      ],
-    },
-    {
-      id: 4,
-      name: "STEVEN AIRLINE 3",
-      description:
-        "A legendary wide-body aircraft known as the “Queen of the Skies”",
-      mainImage: "8.JPG",
-      galleryImages: [
-        "8(1).JPG",
-        "8(2).JPG",
-      ],
-    },
-     {
-      id: 1,
-      name: "STEVEN AIRLINE 1",
-      description:
-        "A legendary wide-body aircraft known as the “Queen of the Skies”",
-      mainImage: "1.JPG",
-      galleryImages: [
-        "1(3).JPG",
-        "1(2).JPG",
-        "1(1).JPG",
-      ],
-    },
-    {
-      id: 2,
-      name: "STEVEN AIRLINE 2",
-      description:
-        "A legendary wide-body aircraft known as the “Queen of the Skies”",
-      mainImage: "3.JPG",
-      galleryImages: ["3(3).JPG", "3(4).JPG", "3(5).JPG"],
-    },
-    {
-      id: 3,
-      name: "STEVEN AIRLINE 3",
-      description:
-        "A legendary wide-body aircraft known as the “Queen of the Skies”",
-      mainImage: "2.JPG",
-      galleryImages: [
-        "2.JPG",
-      ],
-    },
-    {
-      id: 4,
-      name: "STEVEN AIRLINE 3",
-      description:
-        "A legendary wide-body aircraft known as the “Queen of the Skies”",
-      mainImage: "8.JPG",
-      galleryImages: [
-        "8(1).JPG",
-        "8(2).JPG",
-      ],
-    },
-    {
-      id: 4,
-      name: "STEVEN AIRLINE 3",
-      description:
-        "A legendary wide-body aircraft known as the “Queen of the Skies”",
-      mainImage: "8.JPG",
-      galleryImages: [
-        "8(1).JPG",
-        "8(2).JPG",
-      ],
-    },
-    {
-      id: 4,
-      name: "STEVEN AIRLINE 3",
-      description:
-        "A legendary wide-body aircraft known as the “Queen of the Skies”",
-      mainImage: "8.JPG",
-      galleryImages: [
-        "8(1).JPG",
-        "8(2).JPG",
-      ],
-    },
-    {
-      id: 4,
-      name: "STEVEN AIRLINE 3",
-      description:
-        "A legendary wide-body aircraft known as the “Queen of the Skies”",
-      mainImage: "8.JPG",
-      galleryImages: [
-        "8(1).JPG",
-        "8(2).JPG",
-      ],
-    },
-    {
-      id: 4,
-      name: "STEVEN AIRLINE 3",
-      description:
-        "A legendary wide-body aircraft known as the “Queen of the Skies”",
-      mainImage: "8.JPG",
-      galleryImages: [
-        "8(1).JPG",
-        "8(2).JPG",
-      ],
-    },
-    {
-      id: 1,
-      name: "STEVEN AIRLINE 1",
-      description:
-        "A legendary wide-body aircraft known as the “Queen of the Skies”",
-      mainImage: "1.JPG",
-      galleryImages: [
-        "1(3).JPG",
-        "1(2).JPG",
-        "1(1).JPG",
-      ],
-    },
-    {
-      id: 2,
-      name: "STEVEN AIRLINE 2",
-      description:
-        "A legendary wide-body aircraft known as the “Queen of the Skies”",
-      mainImage: "3.JPG",
-      galleryImages: ["3(3).JPG", "3(4).JPG", "3(5).JPG"],
-    },
-    {
-      id: 3,
-      name: "STEVEN AIRLINE 3",
-      description:
-        "A legendary wide-body aircraft known as the “Queen of the Skies”",
-      mainImage: "2.JPG",
-      galleryImages: [
-        "2.JPG",
-      ],
-    },
-    {
-      id: 4,
-      name: "STEVEN AIRLINE 3",
-      description:
-        "A legendary wide-body aircraft known as the “Queen of the Skies”",
-      mainImage: "8.JPG",
-      galleryImages: [
-        "8(1).JPG",
-        "8(2).JPG",
-      ],
-    },
-    {
-      id: 4,
-      name: "STEVEN AIRLINE 3",
-      description:
-        "A legendary wide-body aircraft known as the “Queen of the Skies”",
-      mainImage: "8.JPG",
-      galleryImages: [
-        "8(1).JPG",
-        "8(2).JPG",
-      ],
-    },
-    {
-      id: 4,
-      name: "STEVEN AIRLINE 3",
-      description:
-        "A legendary wide-body aircraft known as the “Queen of the Skies”",
-      mainImage: "8.JPG",
-      galleryImages: [
-        "8(1).JPG",
-        "8(2).JPG",
-      ],
-    },
-    {
-      id: 4,
-      name: "STEVEN AIRLINE 3",
-      description:
-        "A legendary wide-body aircraft known as the “Queen of the Skies”",
-      mainImage: "8.JPG",
-      galleryImages: [
-        "8(1).JPG",
-        "8(2).JPG",
-      ],
-    },
-    {
-      id: 4,
-      name: "STEVEN AIRLINE 3",
-      description:
-        "A legendary wide-body aircraft known as the “Queen of the Skies”",
-      mainImage: "8.JPG",
-      galleryImages: [
-        "8(1).JPG",
-        "8(2).JPG",
-      ],
-    },
-     {
-      id: 1,
-      name: "STEVEN AIRLINE 1",
-      description:
-        "A legendary wide-body aircraft known as the “Queen of the Skies”",
-      mainImage: "1.JPG",
-      galleryImages: [
-        "1(3).JPG",
-        "1(2).JPG",
-        "1(1).JPG",
-      ],
-    },
-    {
-      id: 2,
-      name: "STEVEN AIRLINE 2",
-      description:
-        "A legendary wide-body aircraft known as the “Queen of the Skies”",
-      mainImage: "3.JPG",
-      galleryImages: ["3(3).JPG", "3(4).JPG", "3(5).JPG"],
-    },
-    {
-      id: 3,
-      name: "STEVEN AIRLINE 3",
-      description:
-        "A legendary wide-body aircraft known as the “Queen of the Skies”",
-      mainImage: "2.JPG",
-      galleryImages: [
-        "2.JPG",
-      ],
-    },
-    {
-      id: 4,
-      name: "STEVEN AIRLINE 3",
-      description:
-        "A legendary wide-body aircraft known as the “Queen of the Skies”",
-      mainImage: "8.JPG",
-      galleryImages: [
-        "8(1).JPG",
-        "8(2).JPG",
-      ],
-    },
-    {
-      id: 4,
-      name: "STEVEN AIRLINE 3",
-      description:
-        "A legendary wide-body aircraft known as the “Queen of the Skies”",
-      mainImage: "8.JPG",
-      galleryImages: [
-        "8(1).JPG",
-        "8(2).JPG",
-      ],
-    },
-    {
-      id: 4,
-      name: "STEVEN AIRLINE 3",
-      description:
-        "A legendary wide-body aircraft known as the “Queen of the Skies”",
-      mainImage: "8.JPG",
-      galleryImages: [
-        "8(1).JPG",
-        "8(2).JPG",
-      ],
-    },
-    {
-      id: 4,
-      name: "STEVEN AIRLINE 3",
-      description:
-        "A legendary wide-body aircraft known as the “Queen of the Skies”",
-      mainImage: "8.JPG",
-      galleryImages: [
-        "8(1).JPG",
-        "8(2).JPG",
-      ],
-    },
-    {
-      id: 4,
-      name: "STEVEN AIRLINE 3",
-      description:
-        "A legendary wide-body aircraft known as the “Queen of the Skies”",
-      mainImage: "8.JPG",
-      galleryImages: [
-        "8(1).JPG",
-        "8(2).JPG",
-      ],
-    },{
-      id: 1,
-      name: "STEVEN AIRLINE 1",
-      description:
-        "A legendary wide-body aircraft known as the “Queen of the Skies”",
-      mainImage: "1.JPG",
-      galleryImages: [
-        "1(3).JPG",
-        "1(2).JPG",
-        "1(1).JPG",
-      ],
-    },
-    {
-      id: 2,
-      name: "STEVEN AIRLINE 2",
-      description:
-        "A legendary wide-body aircraft known as the “Queen of the Skies”",
-      mainImage: "3.JPG",
-      galleryImages: ["3(3).JPG", "3(4).JPG", "3(5).JPG"],
-    },
-    {
-      id: 3,
-      name: "STEVEN AIRLINE 3",
-      description:
-        "A legendary wide-body aircraft known as the “Queen of the Skies”",
-      mainImage: "2.JPG",
-      galleryImages: [
-        "2.JPG",
-      ],
-    },
-    {
-      id: 4,
-      name: "STEVEN AIRLINE 3",
-      description:
-        "A legendary wide-body aircraft known as the “Queen of the Skies”",
-      mainImage: "8.JPG",
-      galleryImages: [
-        "8(1).JPG",
-        "8(2).JPG",
-      ],
-    },
-    {
-      id: 4,
-      name: "STEVEN AIRLINE 3",
-      description:
-        "A legendary wide-body aircraft known as the “Queen of the Skies”",
-      mainImage: "8.JPG",
-      galleryImages: [
-        "8(1).JPG",
-        "8(2).JPG",
-      ],
-    },
-    {
-      id: 4,
-      name: "STEVEN AIRLINE 3",
-      description:
-        "A legendary wide-body aircraft known as the “Queen of the Skies”",
-      mainImage: "8.JPG",
-      galleryImages: [
-        "8(1).JPG",
-        "8(2).JPG",
-      ],
-    },
-    {
-      id: 4,
-      name: "STEVEN AIRLINE 3",
-      description:
-        "A legendary wide-body aircraft known as the “Queen of the Skies”",
-      mainImage: "8.JPG",
-      galleryImages: [
-        "8(1).JPG",
-        "8(2).JPG",
-      ],
-    },
-    {
-      id: 4,
-      name: "STEVEN AIRLINE 3",
-      description:
-        "A legendary wide-body aircraft known as the “Queen of the Skies”",
-      mainImage: "8.JPG",
-      galleryImages: [
-        "8(1).JPG",
-        "8(2).JPG",
-      ],
-    },
-     {
-      id: 1,
-      name: "STEVEN AIRLINE 1",
-      description:
-        "A legendary wide-body aircraft known as the “Queen of the Skies”",
-      mainImage: "1.JPG",
-      galleryImages: [
-        "1(3).JPG",
-        "1(2).JPG",
-        "1(1).JPG",
-      ],
-    },
-    {
-      id: 2,
-      name: "STEVEN AIRLINE 2",
-      description:
-        "A legendary wide-body aircraft known as the “Queen of the Skies”",
-      mainImage: "3.JPG",
-      galleryImages: ["3(3).JPG", "3(4).JPG", "3(5).JPG"],
-    },
-    {
-      id: 3,
-      name: "STEVEN AIRLINE 3",
-      description:
-        "A legendary wide-body aircraft known as the “Queen of the Skies”",
-      mainImage: "2.JPG",
-      galleryImages: [
-        "2.JPG",
-      ],
-    },
-    {
-      id: 4,
-      name: "STEVEN AIRLINE 3",
-      description:
-        "A legendary wide-body aircraft known as the “Queen of the Skies”",
-      mainImage: "8.JPG",
-      galleryImages: [
-        "8(1).JPG",
-        "8(2).JPG",
-      ],
-    },
-    {
-      id: 4,
-      name: "STEVEN AIRLINE 3",
-      description:
-        "A legendary wide-body aircraft known as the “Queen of the Skies”",
-      mainImage: "8.JPG",
-      galleryImages: [
-        "8(1).JPG",
-        "8(2).JPG",
-      ],
-    },
-    {
-      id: 4,
-      name: "STEVEN AIRLINE 3",
-      description:
-        "A legendary wide-body aircraft known as the “Queen of the Skies”",
-      mainImage: "8.JPG",
-      galleryImages: [
-        "8(1).JPG",
-        "8(2).JPG",
-      ],
-    },
-    {
-      id: 4,
-      name: "STEVEN AIRLINE 3",
-      description:
-        "A legendary wide-body aircraft known as the “Queen of the Skies”",
-      mainImage: "8.JPG",
-      galleryImages: [
-        "8(1).JPG",
-        "8(2).JPG",
-      ],
-    },
-    {
-      id: 4,
-      name: "STEVEN AIRLINE 3",
-      description:
-        "A legendary wide-body aircraft known as the “Queen of the Skies”",
-      mainImage: "8.JPG",
-      galleryImages: [
-        "8(1).JPG",
-        "8(2).JPG",
-      ],
-    },
-    {
-      id: 1,
-      name: "STEVEN AIRLINE 1",
-      description:
-        "A legendary wide-body aircraft known as the “Queen of the Skies”",
-      mainImage: "1.JPG",
-      galleryImages: [
-        "1(3).JPG",
-        "1(2).JPG",
-        "1(1).JPG",
-      ],
-    },
-    {
-      id: 2,
-      name: "STEVEN AIRLINE 2",
-      description:
-        "A legendary wide-body aircraft known as the “Queen of the Skies”",
-      mainImage: "3.JPG",
-      galleryImages: ["3(3).JPG", "3(4).JPG", "3(5).JPG"],
-    },
-    {
-      id: 3,
-      name: "STEVEN AIRLINE 3",
-      description:
-        "A legendary wide-body aircraft known as the “Queen of the Skies”",
-      mainImage: "2.JPG",
-      galleryImages: [
-        "2.JPG",
-      ],
-    },
-    {
-      id: 4,
-      name: "STEVEN AIRLINE 3",
-      description:
-        "A legendary wide-body aircraft known as the “Queen of the Skies”",
-      mainImage: "8.JPG",
-      galleryImages: [
-        "8(1).JPG",
-        "8(2).JPG",
-      ],
-    },
-    {
-      id: 4,
-      name: "STEVEN AIRLINE 3",
-      description:
-        "A legendary wide-body aircraft known as the “Queen of the Skies”",
-      mainImage: "8.JPG",
-      galleryImages: [
-        "8(1).JPG",
-        "8(2).JPG",
-      ],
-    },
-    {
-      id: 4,
-      name: "STEVEN AIRLINE 3",
-      description:
-        "A legendary wide-body aircraft known as the “Queen of the Skies”",
-      mainImage: "8.JPG",
-      galleryImages: [
-        "8(1).JPG",
-        "8(2).JPG",
-      ],
-    },
-    {
-      id: 4,
-      name: "STEVEN AIRLINE 3",
-      description:
-        "A legendary wide-body aircraft known as the “Queen of the Skies”",
-      mainImage: "8.JPG",
-      galleryImages: [
-        "8(1).JPG",
-        "8(2).JPG",
-      ],
-    },
-    {
-      id: 4,
-      name: "STEVEN AIRLINE 3",
-      description:
-        "A legendary wide-body aircraft known as the “Queen of the Skies”",
-      mainImage: "8.JPG",
-      galleryImages: [
-        "8(1).JPG",
-        "8(2).JPG",
-      ],
-    },
-     {
-      id: 1,
-      name: "STEVEN AIRLINE 1",
-      description:
-        "A legendary wide-body aircraft known as the “Queen of the Skies”",
-      mainImage: "1.JPG",
-      galleryImages: [
-        "1(3).JPG",
-        "1(2).JPG",
-        "1(1).JPG",
-      ],
-    },
-    {
-      id: 2,
-      name: "STEVEN AIRLINE 2",
-      description:
-        "A legendary wide-body aircraft known as the “Queen of the Skies”",
-      mainImage: "3.JPG",
-      galleryImages: ["3(3).JPG", "3(4).JPG", "3(5).JPG"],
-    },
-    {
-      id: 3,
-      name: "STEVEN AIRLINE 3",
-      description:
-        "A legendary wide-body aircraft known as the “Queen of the Skies”",
-      mainImage: "2.JPG",
-      galleryImages: [
-        "2.JPG",
-      ],
-    },
-    {
-      id: 4,
-      name: "STEVEN AIRLINE 3",
-      description:
-        "A legendary wide-body aircraft known as the “Queen of the Skies”",
-      mainImage: "8.JPG",
-      galleryImages: [
-        "8(1).JPG",
-        "8(2).JPG",
-      ],
-    },
-    {
-      id: 4,
-      name: "STEVEN AIRLINE 3",
-      description:
-        "A legendary wide-body aircraft known as the “Queen of the Skies”",
-      mainImage: "8.JPG",
-      galleryImages: [
-        "8(1).JPG",
-        "8(2).JPG",
-      ],
-    },
-    {
-      id: 4,
-      name: "STEVEN AIRLINE 3",
-      description:
-        "A legendary wide-body aircraft known as the “Queen of the Skies”",
-      mainImage: "8.JPG",
-      galleryImages: [
-        "8(1).JPG",
-        "8(2).JPG",
-      ],
-    },
-    {
-      id: 4,
-      name: "STEVEN AIRLINE 3",
-      description:
-        "A legendary wide-body aircraft known as the “Queen of the Skies”",
-      mainImage: "8.JPG",
-      galleryImages: [
-        "8(1).JPG",
-        "8(2).JPG",
-      ],
-    },
-    {
-      id: 4,
-      name: "STEVEN AIRLINE 3",
-      description:
-        "A legendary wide-body aircraft known as the “Queen of the Skies”",
-      mainImage: "8.JPG",
-      galleryImages: [
-        "8(1).JPG",
-        "8(2).JPG",
-      ],
-    },
-    {
-      id: 1,
-      name: "STEVEN AIRLINE 1",
-      description:
-        "A legendary wide-body aircraft known as the “Queen of the Skies”",
-      mainImage: "1.JPG",
-      galleryImages: [
-        "1(3).JPG",
-        "1(2).JPG",
-        "1(1).JPG",
-      ],
-    },
-    {
-      id: 2,
-      name: "STEVEN AIRLINE 2",
-      description:
-        "A legendary wide-body aircraft known as the “Queen of the Skies”",
-      mainImage: "3.JPG",
-      galleryImages: ["3(3).JPG", "3(4).JPG", "3(5).JPG"],
-    },
-    {
-      id: 3,
-      name: "STEVEN AIRLINE 3",
-      description:
-        "A legendary wide-body aircraft known as the “Queen of the Skies”",
-      mainImage: "2.JPG",
-      galleryImages: [
-        "2.JPG",
-      ],
-    },
-    {
-      id: 4,
-      name: "STEVEN AIRLINE 3",
-      description:
-        "A legendary wide-body aircraft known as the “Queen of the Skies”",
-      mainImage: "8.JPG",
-      galleryImages: [
-        "8(1).JPG",
-        "8(2).JPG",
-      ],
-    },
-    {
-      id: 4,
-      name: "STEVEN AIRLINE 3",
-      description:
-        "A legendary wide-body aircraft known as the “Queen of the Skies”",
-      mainImage: "8.JPG",
-      galleryImages: [
-        "8(1).JPG",
-        "8(2).JPG",
-      ],
-    },
-    {
-      id: 4,
-      name: "STEVEN AIRLINE 3",
-      description:
-        "A legendary wide-body aircraft known as the “Queen of the Skies”",
-      mainImage: "8.JPG",
-      galleryImages: [
-        "8(1).JPG",
-        "8(2).JPG",
-      ],
-    },
-    {
-      id: 4,
-      name: "STEVEN AIRLINE 3",
-      description:
-        "A legendary wide-body aircraft known as the “Queen of the Skies”",
-      mainImage: "8.JPG",
-      galleryImages: [
-        "8(1).JPG",
-        "8(2).JPG",
-      ],
-    },
-    {
-      id: 4,
-      name: "STEVEN AIRLINE 3",
-      description:
-        "A legendary wide-body aircraft known as the “Queen of the Skies”",
-      mainImage: "8.JPG",
-      galleryImages: [
-        "8(1).JPG",
-        "8(2).JPG",
-      ],
-    },
-     {
-      id: 1,
-      name: "STEVEN AIRLINE 1",
-      description:
-        "A legendary wide-body aircraft known as the “Queen of the Skies”",
-      mainImage: "1.JPG",
-      galleryImages: [
-        "1(3).JPG",
-        "1(2).JPG",
-        "1(1).JPG",
-      ],
-    },
-    {
-      id: 2,
-      name: "STEVEN AIRLINE 2",
-      description:
-        "A legendary wide-body aircraft known as the “Queen of the Skies”",
-      mainImage: "3.JPG",
-      galleryImages: ["3(3).JPG", "3(4).JPG", "3(5).JPG"],
-    },
-    {
-      id: 3,
-      name: "STEVEN AIRLINE 3",
-      description:
-        "A legendary wide-body aircraft known as the “Queen of the Skies”",
-      mainImage: "2.JPG",
-      galleryImages: [
-        "2.JPG",
-      ],
-    },
-    {
-      id: 4,
-      name: "STEVEN AIRLINE 3",
-      description:
-        "A legendary wide-body aircraft known as the “Queen of the Skies”",
-      mainImage: "8.JPG",
-      galleryImages: [
-        "8(1).JPG",
-        "8(2).JPG",
-      ],
-    },
-    {
-      id: 4,
-      name: "STEVEN AIRLINE 3",
-      description:
-        "A legendary wide-body aircraft known as the “Queen of the Skies”",
-      mainImage: "8.JPG",
-      galleryImages: [
-        "8(1).JPG",
-        "8(2).JPG",
-      ],
-    },
-    {
-      id: 4,
-      name: "STEVEN AIRLINE 3",
-      description:
-        "A legendary wide-body aircraft known as the “Queen of the Skies”",
-      mainImage: "8.JPG",
-      galleryImages: [
-        "8(1).JPG",
-        "8(2).JPG",
-      ],
-    },
-    {
-      id: 4,
-      name: "STEVEN AIRLINE 3",
-      description:
-        "A legendary wide-body aircraft known as the “Queen of the Skies”",
-      mainImage: "8.JPG",
-      galleryImages: [
-        "8(1).JPG",
-        "8(2).JPG",
-      ],
-    },
-    {
-      id: 4,
-      name: "STEVEN AIRLINE 3",
-      description:
-        "A legendary wide-body aircraft known as the “Queen of the Skies”",
-      mainImage: "8.JPG",
-      galleryImages: [
-        "8(1).JPG",
-        "8(2).JPG",
-      ],
-    },{
-      id: 1,
-      name: "STEVEN AIRLINE 1",
-      description:
-        "A legendary wide-body aircraft known as the “Queen of the Skies”",
-      mainImage: "1.JPG",
-      galleryImages: [
-        "1(3).JPG",
-        "1(2).JPG",
-        "1(1).JPG",
-      ],
-    },
-    {
-      id: 2,
-      name: "STEVEN AIRLINE 2",
-      description:
-        "A legendary wide-body aircraft known as the “Queen of the Skies”",
-      mainImage: "3.JPG",
-      galleryImages: ["3(3).JPG", "3(4).JPG", "3(5).JPG"],
-    },
-    {
-      id: 3,
-      name: "STEVEN AIRLINE 3",
-      description:
-        "A legendary wide-body aircraft known as the “Queen of the Skies”",
-      mainImage: "2.JPG",
-      galleryImages: [
-        "2.JPG",
-      ],
-    },
-    {
-      id: 4,
-      name: "STEVEN AIRLINE 3",
-      description:
-        "A legendary wide-body aircraft known as the “Queen of the Skies”",
-      mainImage: "8.JPG",
-      galleryImages: [
-        "8(1).JPG",
-        "8(2).JPG",
-      ],
-    },
-    {
-      id: 4,
-      name: "STEVEN AIRLINE 3",
-      description:
-        "A legendary wide-body aircraft known as the “Queen of the Skies”",
-      mainImage: "8.JPG",
-      galleryImages: [
-        "8(1).JPG",
-        "8(2).JPG",
-      ],
-    },
-    {
-      id: 4,
-      name: "STEVEN AIRLINE 3",
-      description:
-        "A legendary wide-body aircraft known as the “Queen of the Skies”",
-      mainImage: "8.JPG",
-      galleryImages: [
-        "8(1).JPG",
-        "8(2).JPG",
-      ],
-    },
-    {
-      id: 4,
-      name: "STEVEN AIRLINE 3",
-      description:
-        "A legendary wide-body aircraft known as the “Queen of the Skies”",
-      mainImage: "8.JPG",
-      galleryImages: [
-        "8(1).JPG",
-        "8(2).JPG",
-      ],
-    },
-    {
-      id: 4,
-      name: "STEVEN AIRLINE 3",
-      description:
-        "A legendary wide-body aircraft known as the “Queen of the Skies”",
-      mainImage: "8.JPG",
-      galleryImages: [
-        "8(1).JPG",
-        "8(2).JPG",
-      ],
-    },
-     {
-      id: 1,
-      name: "STEVEN AIRLINE 1",
-      description:
-        "A legendary wide-body aircraft known as the “Queen of the Skies”",
-      mainImage: "1.JPG",
-      galleryImages: [
-        "1(3).JPG",
-        "1(2).JPG",
-        "1(1).JPG",
-      ],
-    },
-    {
-      id: 2,
-      name: "STEVEN AIRLINE 2",
-      description:
-        "A legendary wide-body aircraft known as the “Queen of the Skies”",
-      mainImage: "3.JPG",
-      galleryImages: ["3(3).JPG", "3(4).JPG", "3(5).JPG"],
-    },
-    {
-      id: 3,
-      name: "STEVEN AIRLINE 3",
-      description:
-        "A legendary wide-body aircraft known as the “Queen of the Skies”",
-      mainImage: "2.JPG",
-      galleryImages: [
-        "2.JPG",
-      ],
-    },
-    {
-      id: 4,
-      name: "STEVEN AIRLINE 3",
-      description:
-        "A legendary wide-body aircraft known as the “Queen of the Skies”",
-      mainImage: "8.JPG",
-      galleryImages: [
-        "8(1).JPG",
-        "8(2).JPG",
-      ],
-    },
-    {
-      id: 4,
-      name: "STEVEN AIRLINE 3",
-      description:
-        "A legendary wide-body aircraft known as the “Queen of the Skies”",
-      mainImage: "8.JPG",
-      galleryImages: [
-        "8(1).JPG",
-        "8(2).JPG",
-      ],
-    },
-    {
-      id: 4,
-      name: "STEVEN AIRLINE 3",
-      description:
-        "A legendary wide-body aircraft known as the “Queen of the Skies”",
-      mainImage: "8.JPG",
-      galleryImages: [
-        "8(1).JPG",
-        "8(2).JPG",
-      ],
-    },
-    {
-      id: 4,
-      name: "STEVEN AIRLINE 3",
-      description:
-        "A legendary wide-body aircraft known as the “Queen of the Skies”",
-      mainImage: "8.JPG",
-      galleryImages: [
-        "8(1).JPG",
-        "8(2).JPG",
-      ],
-    },
-    {
-      id: 4,
-      name: "STEVEN AIRLINE 3",
-      description:
-        "A legendary wide-body aircraft known as the “Queen of the Skies”",
-      mainImage: "8.JPG",
-      galleryImages: [
-        "8(1).JPG",
-        "8(2).JPG",
-      ],
-    },
-    {
-      id: 1,
-      name: "STEVEN AIRLINE 1",
-      description:
-        "A legendary wide-body aircraft known as the “Queen of the Skies”",
-      mainImage: "1.JPG",
-      galleryImages: [
-        "1(3).JPG",
-        "1(2).JPG",
-        "1(1).JPG",
-      ],
-    },
-    {
-      id: 2,
-      name: "STEVEN AIRLINE 2",
-      description:
-        "A legendary wide-body aircraft known as the “Queen of the Skies”",
-      mainImage: "3.JPG",
-      galleryImages: ["3(3).JPG", "3(4).JPG", "3(5).JPG"],
-    },
-    {
-      id: 3,
-      name: "STEVEN AIRLINE 3",
-      description:
-        "A legendary wide-body aircraft known as the “Queen of the Skies”",
-      mainImage: "2.JPG",
-      galleryImages: [
-        "2.JPG",
-      ],
-    },
-    {
-      id: 4,
-      name: "STEVEN AIRLINE 3",
-      description:
-        "A legendary wide-body aircraft known as the “Queen of the Skies”",
-      mainImage: "8.JPG",
-      galleryImages: [
-        "8(1).JPG",
-        "8(2).JPG",
-      ],
-    },
-    {
-      id: 4,
-      name: "STEVEN AIRLINE 3",
-      description:
-        "A legendary wide-body aircraft known as the “Queen of the Skies”",
-      mainImage: "8.JPG",
-      galleryImages: [
-        "8(1).JPG",
-        "8(2).JPG",
-      ],
-    },
-    {
-      id: 4,
-      name: "STEVEN AIRLINE 3",
-      description:
-        "A legendary wide-body aircraft known as the “Queen of the Skies”",
-      mainImage: "8.JPG",
-      galleryImages: [
-        "8(1).JPG",
-        "8(2).JPG",
-      ],
-    },
-    {
-      id: 4,
-      name: "STEVEN AIRLINE 3",
-      description:
-        "A legendary wide-body aircraft known as the “Queen of the Skies”",
-      mainImage: "8.JPG",
-      galleryImages: [
-        "8(1).JPG",
-        "8(2).JPG",
-      ],
-    },
-    {
-      id: 4,
-      name: "STEVEN AIRLINE 3",
-      description:
-        "A legendary wide-body aircraft known as the “Queen of the Skies”",
-      mainImage: "8.JPG",
-      galleryImages: [
-        "8(1).JPG",
-        "8(2).JPG",
-      ],
-    },
-     {
-      id: 1,
-      name: "STEVEN AIRLINE 1",
-      description:
-        "A legendary wide-body aircraft known as the “Queen of the Skies”",
-      mainImage: "1.JPG",
-      galleryImages: [
-        "1(3).JPG",
-        "1(2).JPG",
-        "1(1).JPG",
-      ],
-    },
-    {
-      id: 2,
-      name: "STEVEN AIRLINE 2",
-      description:
-        "A legendary wide-body aircraft known as the “Queen of the Skies”",
-      mainImage: "3.JPG",
-      galleryImages: ["3(3).JPG", "3(4).JPG", "3(5).JPG"],
-    },
-    {
-      id: 3,
-      name: "STEVEN AIRLINE 3",
-      description:
-        "A legendary wide-body aircraft known as the “Queen of the Skies”",
-      mainImage: "2.JPG",
-      galleryImages: [
-        "2.JPG",
-      ],
-    },
-    {
-      id: 4,
-      name: "STEVEN AIRLINE 3",
-      description:
-        "A legendary wide-body aircraft known as the “Queen of the Skies”",
-      mainImage: "8.JPG",
-      galleryImages: [
-        "8(1).JPG",
-        "8(2).JPG",
-      ],
-    },
-    {
-      id: 4,
-      name: "STEVEN AIRLINE 3",
-      description:
-        "A legendary wide-body aircraft known as the “Queen of the Skies”",
-      mainImage: "8.JPG",
-      galleryImages: [
-        "8(1).JPG",
-        "8(2).JPG",
-      ],
-    },
-    {
-      id: 4,
-      name: "STEVEN AIRLINE 3",
-      description:
-        "A legendary wide-body aircraft known as the “Queen of the Skies”",
-      mainImage: "8.JPG",
-      galleryImages: [
-        "8(1).JPG",
-        "8(2).JPG",
-      ],
-    },
-    {
-      id: 4,
-      name: "STEVEN AIRLINE 3",
-      description:
-        "A legendary wide-body aircraft known as the “Queen of the Skies”",
-      mainImage: "8.JPG",
-      galleryImages: [
-        "8(1).JPG",
-        "8(2).JPG",
-      ],
-    },
-    {
-      id: 4,
-      name: "STEVEN AIRLINE 3",
-      description:
-        "A legendary wide-body aircraft known as the “Queen of the Skies”",
-      mainImage: "8.JPG",
-      galleryImages: [
-        "8(1).JPG",
-        "8(2).JPG",
-      ],
-    },
-    {
-      id: 1,
-      name: "STEVEN AIRLINE 1",
-      description:
-        "A legendary wide-body aircraft known as the “Queen of the Skies”",
-      mainImage: "1.JPG",
-      galleryImages: [
-        "1(3).JPG",
-        "1(2).JPG",
-        "1(1).JPG",
-      ],
-    },
-    {
-      id: 2,
-      name: "STEVEN AIRLINE 2",
-      description:
-        "A legendary wide-body aircraft known as the “Queen of the Skies”",
-      mainImage: "3.JPG",
-      galleryImages: ["3(3).JPG", "3(4).JPG", "3(5).JPG"],
-    },
-    {
-      id: 3,
-      name: "STEVEN AIRLINE 3",
-      description:
-        "A legendary wide-body aircraft known as the “Queen of the Skies”",
-      mainImage: "2.JPG",
-      galleryImages: [
-        "2.JPG",
-      ],
-    },
-    {
-      id: 4,
-      name: "STEVEN AIRLINE 3",
-      description:
-        "A legendary wide-body aircraft known as the “Queen of the Skies”",
-      mainImage: "8.JPG",
-      galleryImages: [
-        "8(1).JPG",
-        "8(2).JPG",
-      ],
-    },
-    {
-      id: 4,
-      name: "STEVEN AIRLINE 3",
-      description:
-        "A legendary wide-body aircraft known as the “Queen of the Skies”",
-      mainImage: "8.JPG",
-      galleryImages: [
-        "8(1).JPG",
-        "8(2).JPG",
-      ],
-    },
-    {
-      id: 4,
-      name: "STEVEN AIRLINE 3",
-      description:
-        "A legendary wide-body aircraft known as the “Queen of the Skies”",
-      mainImage: "8.JPG",
-      galleryImages: [
-        "8(1).JPG",
-        "8(2).JPG",
-      ],
-    },
-    {
-      id: 4,
-      name: "STEVEN AIRLINE 3",
-      description:
-        "A legendary wide-body aircraft known as the “Queen of the Skies”",
-      mainImage: "8.JPG",
-      galleryImages: [
-        "8(1).JPG",
-        "8(2).JPG",
-      ],
-    },
-    {
-      id: 4,
-      name: "STEVEN AIRLINE 3",
-      description:
-        "A legendary wide-body aircraft known as the “Queen of the Skies”",
-      mainImage: "8.JPG",
-      galleryImages: [
-        "8(1).JPG",
-        "8(2).JPG",
-      ],
-    },
-     {
-      id: 1,
-      name: "STEVEN AIRLINE 1",
-      description:
-        "A legendary wide-body aircraft known as the “Queen of the Skies”",
-      mainImage: "1.JPG",
-      galleryImages: [
-        "1(3).JPG",
-        "1(2).JPG",
-        "1(1).JPG",
-      ],
-    },
-    {
-      id: 2,
-      name: "STEVEN AIRLINE 2",
-      description:
-        "A legendary wide-body aircraft known as the “Queen of the Skies”",
-      mainImage: "3.JPG",
-      galleryImages: ["3(3).JPG", "3(4).JPG", "3(5).JPG"],
-    },
-    {
-      id: 3,
-      name: "STEVEN AIRLINE 3",
-      description:
-        "A legendary wide-body aircraft known as the “Queen of the Skies”",
-      mainImage: "2.JPG",
-      galleryImages: [
-        "2.JPG",
-      ],
-    },
-    {
-      id: 4,
-      name: "STEVEN AIRLINE 3",
-      description:
-        "A legendary wide-body aircraft known as the “Queen of the Skies”",
-      mainImage: "8.JPG",
-      galleryImages: [
-        "8(1).JPG",
-        "8(2).JPG",
-      ],
-    },
-    {
-      id: 4,
-      name: "STEVEN AIRLINE 3",
-      description:
-        "A legendary wide-body aircraft known as the “Queen of the Skies”",
-      mainImage: "8.JPG",
-      galleryImages: [
-        "8(1).JPG",
-        "8(2).JPG",
-      ],
-    },
-    {
-      id: 4,
-      name: "STEVEN AIRLINE 3",
-      description:
-        "A legendary wide-body aircraft known as the “Queen of the Skies”",
-      mainImage: "8.JPG",
-      galleryImages: [
-        "8(1).JPG",
-        "8(2).JPG",
-      ],
-    },
-    {
-      id: 4,
-      name: "STEVEN AIRLINE 3",
-      description:
-        "A legendary wide-body aircraft known as the “Queen of the Skies”",
-      mainImage: "8.JPG",
-      galleryImages: [
-        "8(1).JPG",
-        "8(2).JPG",
-      ],
-    },
-    {
-      id: 4,
-      name: "STEVEN AIRLINE 3",
-      description:
-        "A legendary wide-body aircraft known as the “Queen of the Skies”",
-      mainImage: "8.JPG",
-      galleryImages: [
-        "8(1).JPG",
-        "8(2).JPG",
-      ],
-    },
+      id:24,
+      name: "Aerosur Super Torismo",
+      description:
+        "AEROSUR BOEING 747-443 CP-2603 SUPER TORISMO COLOURS , LTD TO ONLY 120 MADE IN 2015. Inflight200",
+      mainImage: "/Aircraft/AST/01.jpg",
+      galleryImages: [
+        "/Aircraft/AST/1.jpeg",
+        "/Aircraft/AST/2.jpeg",
+        "/Aircraft/AST/3.jpeg",
+        "/Aircraft/AST/4.jpeg",
+        "/Aircraft/AST/5.jpeg",
+        "/Aircraft/AST/6.jpeg",
+        "/Aircraft/AST/7.jpeg",
+        "/Aircraft/AST/8.jpeg",
+        "/Aircraft/AST/9.jpeg",
+        "/Aircraft/AST/10.jpeg",
+        "/Aircraft/AST/11.jpeg",
+        "/Aircraft/AST/12.jpeg",
+      ],
+    },
+    {
+      id: 25,
+      name: "Air France",
+      description:
+        "Air France Boeing 747-100 F-BPVA very limited edition to 180 units made in 2010. F-BPVA was Air France very first Boeing 747. A historic aircraft. ",
+      mainImage: "/Aircraft/Air_France/01.jpeg",
+      galleryImages: [
+        "/Aircraft/Air_France/1.jpeg",
+        "/Aircraft/Air_France/2.jpeg",
+        "/Aircraft/Air_France/3.jpeg",
+        "/Aircraft/Air_France/4.jpeg",
+        "/Aircraft/Air_France/5.jpeg",
+        "/Aircraft/Air_France/6.jpeg",
+        "/Aircraft/Air_France/7.jpeg",
+        
+      ],
+    },
+    {
+    id: 1,
+    name: "Air Jamaica",
+    description: "",
+    mainImage: "/Aircraft/AirJamaica/01.jpeg",
+    galleryImages: [
+      "/Aircraft/AirJamaica/1.jpeg",
+      "/Aircraft/AirJamaica/2.jpeg",
+      "/Aircraft/AirJamaica/3.jpeg",
+      "/Aircraft/AirJamaica/4.jpeg",
+      "/Aircraft/AirJamaica/5.jpeg",
+      "/Aircraft/AirJamaica/6.jpeg",
+      "/Aircraft/AirJamaica/7.jpeg",
+      
+    ],
+  },
+  {
+    id: 2,
+    name: "Alitalia",
+    description: "",
+    mainImage: "/Aircraft/Alitalia/01.jpeg",
+    galleryImages: [
+      "/Aircraft/Alitalia/1.jpeg",
+      "/Aircraft/Alitalia/2.jpeg",
+      "/Aircraft/Alitalia/3.jpeg",
+      "/Aircraft/Alitalia/4.jpeg",
+      "/Aircraft/Alitalia/5.jpeg",
+      "/Aircraft/Alitalia/6.jpeg",
+      "/Aircraft/Alitalia/7.jpeg",
+      "/Aircraft/Alitalia/8.jpeg",
+      "/Aircraft/Alitalia/9.jpeg",
+      "/Aircraft/Alitalia/10.jpeg",
+      "/Aircraft/Alitalia/11.jpeg",
+      "/Aircraft/Alitalia/12.jpeg",
+    ],
+  },
+  {
+    id: 3,
+    name: "ANA #1",
+    description: "",
+    mainImage: "/Aircraft/ANA1/01.jpeg",
+    galleryImages: [
+      "/Aircraft/ANA1/1.jpeg",
+      "/Aircraft/ANA1/2.jpeg",
+      "/Aircraft/ANA11/3.jpeg",
+      "/Aircraft/ANA1/4.jpeg",
+      "/Aircraft/ANA1/5.jpeg",
+      "/Aircraft/ANA1/6.jpeg",
+    ],
+  },
+  {
+    id: 4,
+    name: "ANA domestic",
+    description: "",
+    mainImage: "/Aircraft/ANAdomestic/01.jpeg",
+    galleryImages: [
+      "/Aircraft/ANAdomestic/1.jpeg",
+      "/Aircraft/ANAdomestic/2.jpeg",
+      "/Aircraft/ANAdomestic/3.jpeg",
+      "/Aircraft/ANAdomestic/4.jpeg",
+      "/Aircraft/ANAdomestic/5.jpeg",
+      "/Aircraft/ANAdomestic/6.jpeg",
+      "/Aircraft/ANAdomestic/7.jpeg",
+      "/Aircraft/ANAdomestic/8.jpeg",
+    ],
+  },
+  {
+    id: 5,
+    name: "Ansett Syd 2000",
+    description: "",
+    mainImage: "/Aircraft/AnsettSyd2000/01.jpeg",
+    galleryImages: [
+      "/Aircraft/AnsettSyd2000/1.jpeg",
+      "/Aircraft/AnsettSyd2000/2.jpeg",
+      "/Aircraft/AnsettSyd2000/3.jpeg",
+      "/Aircraft/AnsettSyd2000/4.jpeg",
+      "/Aircraft/AnsettSyd2000/5.jpeg",
+      "/Aircraft/AnsettSyd2000/6.jpeg",
+      "/Aircraft/AnsettSyd2000/7.jpeg",
+      "/Aircraft/AnsettSyd2000/8.jpeg",
+      "/Aircraft/AnsettSyd2000/9.jpeg",
+      "/Aircraft/AnsettSyd2000/10.jpeg",
+      "/Aircraft/AnsettSyd2000/11.jpeg",
+      "/Aircraft/AnsettSyd2000/12.jpeg",
+    ],
+  },
+  {
+    id: 6,
+    name: "Braniff Calder",
+    description: "",
+    mainImage: "/Aircraft/BraniffCalder/01.jpeg",
+    galleryImages: [
+      "/Aircraft/BraniffCalder/1.jpeg",
+      "/Aircraft/BraniffCalder/2.jpeg",
+      "/Aircraft/BraniffCalder/3.jpeg",
+      "/Aircraft/BraniffCalder/4.jpeg",
+      "/Aircraft/BraniffCalder/5.jpeg",
+      "/Aircraft/BraniffCalder/6.jpeg",
+      "/Aircraft/BraniffCalder/7.jpeg",
+      "/Aircraft/BraniffCalder/8.jpeg",
+      "/Aircraft/BraniffCalder/9.jpeg",
+      "/Aircraft/BraniffCalder/10.jpeg",
+      "/Aircraft/BraniffCalder/11.jpeg",
+      "/Aircraft/BraniffCalder/12.jpeg",
+      "/Aircraft/BraniffCalder/13.jpeg",
+      "/Aircraft/BraniffCalder/14.jpeg",
+      "/Aircraft/BraniffCalder/15.jpeg",
+      "/Aircraft/BraniffCalder/16.jpeg",
+      "/Aircraft/BraniffCalder/17.jpeg",
+      "/Aircraft/BraniffCalder/18.jpeg",
+      "/Aircraft/BraniffCalder/19.jpeg",
+      "/Aircraft/BraniffCalder/20.jpeg",
+      "/Aircraft/BraniffCalder/21.jpeg",
+    ],
+  },
+  {
+    id: 7,
+    name: "British Caledonian",
+    description: "",
+    mainImage: "/Aircraft/BritishCaledonian/01.jpeg",
+    galleryImages: [
+      "/Aircraft/BritishCaledonian/1.jpeg",
+      "/Aircraft/BritishCaledonian/2.jpeg",
+      "/Aircraft/BritishCaledonian/3.jpeg",
+      "/Aircraft/BritishCaledonian/4.jpeg",
+      "/Aircraft/BritishCaledonian/5.jpeg",
+      "/Aircraft/BritishCaledonian/6.jpeg",
+      "/Aircraft/BritishCaledonian/7.jpeg",
+      "/Aircraft/BritishCaledonian/8.jpeg",
+      "/Aircraft/BritishCaledonian/9.jpeg",
+      "/Aircraft/BritishCaledonian/10.jpeg",
+      "/Aircraft/BritishCaledonian/11.jpeg",
+      "/Aircraft/BritishCaledonian/12.jpeg",
+    ],
+  },
+  {
+    id: 8,
+    name: "Cathay Pacific",
+    description: "",
+    mainImage: "/Aircraft/CathayPacific/01.jpeg",
+    galleryImages: [
+      "/Aircraft/CathayPacific/1.jpeg",
+      "/Aircraft/CathayPacific/2.jpeg",
+      "/Aircraft/CathayPacific/3.jpeg",
+      "/Aircraft/CathayPacific/4.jpeg",
+      "/Aircraft/CathayPacific/5.jpeg",
+      "/Aircraft/CathayPacific/6.jpeg",
+      "/Aircraft/CathayPacific/7.jpeg",
+      "/Aircraft/CathayPacific/8.jpeg",
+      "/Aircraft/CathayPacific/9.jpeg",
+      "/Aircraft/CathayPacific/10.jpeg",
+      "/Aircraft/CathayPacific/11.jpeg",
+      "/Aircraft/CathayPacific/12.jpeg",
+    ],
+  },
+  {
+    id: 9,
+    name: "EL AL 747",
+    description: "",
+    mainImage: "/Aircraft/ELAL747/01.jpeg",
+    galleryImages: [
+      "/Aircraft/ELAL747/1.jpeg",
+      "/Aircraft/ELAL747/2.jpeg",
+      "/Aircraft/ELAL747/3.jpeg",
+      "/Aircraft/ELAL747/4.jpeg",
+      "/Aircraft/ELAL747/5.jpeg",
+      "/Aircraft/ELAL747/6.jpeg",
+      "/Aircraft/ELAL747/7.jpeg",
+      "/Aircraft/ELAL747/8.jpeg",
+      "/Aircraft/ELAL747/9.jpeg",
+      "/Aircraft/ELAL747/10.jpeg",
+      "/Aircraft/ELAL747/11.jpeg",
+      "/Aircraft/ELAL747/12.jpeg",
+    ],
+  },
+  {
+    id: 10,
+    name: "Etihad F1",
+    description: "",
+    mainImage: "/Aircraft/EtihadF1/01.jpeg",
+    galleryImages: [
+      "/Aircraft/EtihadF1/1.jpeg",
+      "/Aircraft/EtihadF1/2.jpeg",
+      "/Aircraft/EtihadF1/3.jpeg",
+      "/Aircraft/EtihadF1/4.jpeg",
+      "/Aircraft/EtihadF1/5.jpeg",
+      "/Aircraft/EtihadF1/6.jpeg",
+      "/Aircraft/EtihadF1/7.jpeg",
+      "/Aircraft/EtihadF1/8.jpeg",
+      "/Aircraft/EtihadF1/9.jpeg",
+      "/Aircraft/EtihadF1/10.jpeg",
+      "/Aircraft/EtihadF1/11.jpeg",
+      "/Aircraft/EtihadF1/12.jpeg",
+    ],
+  },
+  {
+    id: 11,
+    name: "Fed Ex",
+    description: "",
+    mainImage: "/Aircraft/FedEx/01.jpeg",
+    galleryImages: [
+      "/Aircraft/FedEx/1.jpeg",
+      "/Aircraft/FedEx/2.jpeg",
+      "/Aircraft/FedEx/3.jpeg",
+      "/Aircraft/FedEx/4.jpeg",
+      "/Aircraft/FedEx/5.jpeg",
+      "/Aircraft/FedEx/6.jpeg",
+      "/Aircraft/FedEx/7.jpeg",
+      "/Aircraft/FedEx/8.jpeg",
+      "/Aircraft/FedEx/9.jpeg",
+      "/Aircraft/FedEx/10.jpeg",
+      "/Aircraft/FedEx/11.jpeg",
+      "/Aircraft/FedEx/12.jpeg",
+    ],
+  },
+  {
+    id: 12,
+    name: "JAL disney friends",
+    description: "",
+    mainImage: "/Aircraft/JALdisneyfriends/01.jpeg",
+    galleryImages: [
+      "/Aircraft/JALdisneyfriends/1.jpeg",
+      "/Aircraft/JALdisneyfriends/2.jpeg",
+      "/Aircraft/JALdisneyfriends/3.jpeg",
+      "/Aircraft/JALdisneyfriends/4.jpeg",
+      "/Aircraft/JALdisneyfriends/5.jpeg",
+      "/Aircraft/JALdisneyfriends/6.jpeg",
+      "/Aircraft/JALdisneyfriends/7.jpeg",
+      "/Aircraft/JALdisneyfriends/8.jpeg",
+      "/Aircraft/JALdisneyfriends/9.jpeg",
+      "/Aircraft/JALdisneyfriends/10.jpeg",
+      "/Aircraft/JALdisneyfriends/11.jpeg",
+      "/Aircraft/JALdisneyfriends/12.jpeg",
+    ],
+  },
+    {
+    id: 13,
+    name: "JAL Disney Sweet",
+    description: "",
+    mainImage: "/Aircraft/JALDisneySweet/01.jpeg",
+    galleryImages: [
+      "/Aircraft/JALDisneySweet/1.jpeg",
+      "/Aircraft/JALDisneySweet/2.jpeg",
+      "/Aircraft/JALDisneySweet/3.jpeg",
+      "/Aircraft/JALDisneySweet/4.jpeg",
+      "/Aircraft/JALDisneySweet/5.jpeg",
+      "/Aircraft/JALDisneySweet/6.jpeg",
+      "/Aircraft/JALDisneySweet/7.jpeg",
+      "/Aircraft/JALDisneySweet/8.jpeg",
+      "/Aircraft/JALDisneySweet/9.jpeg",
+      "/Aircraft/JALDisneySweet/10.jpeg",
+      "/Aircraft/JALDisneySweet/11.jpeg",
+      "/Aircraft/JALDisneySweet/12.jpeg",
+    ],
+  },
+  {
+    id: 14,
+    name: "Lufthansa Hannover",
+    description: "",
+    mainImage: "/Aircraft/LufthansaHannover/01.jpeg",
+    galleryImages: [
+      "/Aircraft/LufthansaHannover/1.jpeg",
+      "/Aircraft/LufthansaHannover/2.jpeg",
+      "/Aircraft/LufthansaHannover/3.jpeg",
+      "/Aircraft/LufthansaHannover/4.jpeg",
+      "/Aircraft/LufthansaHannover/5.jpeg",
+      "/Aircraft/LufthansaHannover/6.jpeg",
+      "/Aircraft/LufthansaHannover/7.jpeg",
+      "/Aircraft/LufthansaHannover/8.jpeg",
+      "/Aircraft/LufthansaHannover/9.jpeg",
+      "/Aircraft/LufthansaHannover/10.jpeg",
+      "/Aircraft/LufthansaHannover/11.jpeg",
+      "/Aircraft/LufthansaHannover/12.jpeg",
+    ],
+  },
+  {
+    id: 15,
+    name: "Philippine Airlines",
+    description: "",
+    mainImage: "/Aircraft/PhilippineAirlines/01.jpeg",
+    galleryImages: [
+      "/Aircraft/PhilippineAirlines/1.jpeg",
+      "/Aircraft/PhilippineAirlines/2.jpeg",
+      "/Aircraft/PhilippineAirlines/3.jpeg",
+      "/Aircraft/PhilippineAirlines/4.jpeg",
+      "/Aircraft/PhilippineAirlines/5.jpeg",
+      "/Aircraft/PhilippineAirlines/6.jpeg",
+      "/Aircraft/PhilippineAirlines/7.jpeg",
+      "/Aircraft/PhilippineAirlines/8.jpeg",
+      "/Aircraft/PhilippineAirlines/9.jpeg",
+      "/Aircraft/PhilippineAirlines/10.jpeg",
+      "/Aircraft/PhilippineAirlines/11.jpeg",
+      "/Aircraft/PhilippineAirlines/12.jpeg",
+    ],
+  },
+  {
+    id: 16,
+    name: "Qantas Big Red",
+    description: "",
+    mainImage: "/Aircraft/QantasBigRed/01.jpeg",
+    galleryImages: [
+      "/Aircraft/QantasBigRed/1.jpeg",
+      "/Aircraft/QantasBigRed/2.jpeg",
+      "/Aircraft/QantasBigRed/3.jpeg",
+      "/Aircraft/QantasBigRed/4.jpeg",
+      "/Aircraft/QantasBigRed/5.jpeg",
+      "/Aircraft/QantasBigRed/6.jpeg",
+      "/Aircraft/QantasBigRed/7.jpeg",
+      "/Aircraft/QantasBigRed/8.jpeg",
+      "/Aircraft/QantasBigRed/9.jpeg",
+      "/Aircraft/QantasBigRed/10.jpeg",
+      "/Aircraft/QantasBigRed/11.jpeg",
+      "/Aircraft/QantasBigRed/12.jpeg",
+    ],
+  },
+  {
+    id: 17,
+    name: "Qantas city of Wagga Wagga",
+    description: "",
+    mainImage: "/Aircraft/QantascityofWaggaWagga/01.jpeg",
+    galleryImages: [
+      "/Aircraft/QantascityofWaggaWagga/1.jpeg",
+      "/Aircraft/QantascityofWaggaWagga/2.jpeg",
+      "/Aircraft/QantascityofWaggaWagga/3.jpeg",
+      "/Aircraft/QantascityofWaggaWagga/4.jpeg",
+      "/Aircraft/QantascityofWaggaWagga/5.jpeg",
+      "/Aircraft/QantascityofWaggaWagga/6.jpeg",
+      "/Aircraft/QantascityofWaggaWagga/7.jpeg",
+      "/Aircraft/QantascityofWaggaWagga/8.jpeg",
+      "/Aircraft/QantascityofWaggaWagga/9.jpeg",
+      "/Aircraft/QantascityofWaggaWagga/10.jpeg",
+      "/Aircraft/QantascityofWaggaWagga/11.jpeg",
+      "/Aircraft/QantascityofWaggaWagga/12.jpeg",
+    ],
+  },
+  {
+    id: 18,
+    name: "Qantas F1",
+    description: "",
+    mainImage: "/Aircraft/QantasF1/01.jpeg",
+    galleryImages: [
+      "/Aircraft/QantasF1/1.jpeg",
+      "/Aircraft/QantasF1/2.jpeg",
+      "/Aircraft/QantasF1/3.jpeg",
+      "/Aircraft/QantasF1/4.jpeg",
+      "/Aircraft/QantasF1/5.jpeg",
+      "/Aircraft/QantasF1/6.jpeg",
+      "/Aircraft/QantasF1/7.jpeg",
+      "/Aircraft/QantasF1/8.jpeg",
+      "/Aircraft/QantasF1/9.jpeg",
+      "/Aircraft/QantasF1/10.jpeg",
+      "/Aircraft/QantasF1/11.jpeg",
+      "/Aircraft/QantasF1/12.jpeg",
+    ],
+  },
+  {
+    id: 19,
+    name: "Qantas Wunala Dreaming OEJ",
+    description: "",
+    mainImage: "/Aircraft/QantasWunalaDreamingOEJ/01.jpeg",
+    galleryImages: [
+      "/Aircraft/QantasWunalaDreamingOEJ/1.jpeg",
+      "/Aircraft/QantasWunalaDreamingOEJ/2.jpeg",
+      "/Aircraft/QantasWunalaDreamingOEJ/3.jpeg",
+      "/Aircraft/QantasWunalaDreamingOEJ/4.jpeg",
+      "/Aircraft/QantasWunalaDreamingOEJ/5.jpeg",
+      "/Aircraft/QantasWunalaDreamingOEJ/6.jpeg",
+      "/Aircraft/QantasWunalaDreamingOEJ/7.jpeg",
+      "/Aircraft/QantasWunalaDreamingOEJ/8.jpeg",
+      "/Aircraft/QantasWunalaDreamingOEJ/9.jpeg",
+      "/Aircraft/QantasWunalaDreamingOEJ/10.jpeg",
+      "/Aircraft/QantasWunalaDreamingOEJ/11.jpeg",
+      "/Aircraft/QantasWunalaDreamingOEJ/12.jpeg",
+    ],
+  },
+  {
+    id: 20,
+    name: "Qantas Wunala Dreaming OJB",
+    description: "",
+    mainImage: "/Aircraft/QantasWunalaDreamingOJB/01.jpeg",
+    galleryImages: [
+      "/Aircraft/QantasWunalaDreamingOJB/1.jpeg",
+      "/Aircraft/QantasWunalaDreamingOJB/2.jpeg",
+      "/Aircraft/QantasWunalaDreamingOJB/3.jpeg",
+      "/Aircraft/QantasWunalaDreamingOJB/4.jpeg",
+      "/Aircraft/QantasWunalaDreamingOJB/5.jpeg",
+      "/Aircraft/QantasWunalaDreamingOJB/6.jpeg",
+      "/Aircraft/QantasWunalaDreamingOJB/7.jpeg",
+      "/Aircraft/QantasWunalaDreamingOJB/8.jpeg",
+      "/Aircraft/QantasWunalaDreamingOJB/9.jpeg",
+      "/Aircraft/QantasWunalaDreamingOJB/10.jpeg",
+      "/Aircraft/QantasWunalaDreamingOJB/11.jpeg",
+      "/Aircraft/QantasWunalaDreamingOJB/12.jpeg",
+      "/Aircraft/QantasWunalaDreamingOJB/13.jpeg",
+      "/Aircraft/QantasWunalaDreamingOJB/14.jpeg",
+      "/Aircraft/QantasWunalaDreamingOJB/15.jpeg",
+      "/Aircraft/QantasWunalaDreamingOJB/16.jpeg",
+      "/Aircraft/QantasWunalaDreamingOJB/17.jpeg",
+      "/Aircraft/QantasWunalaDreamingOJB/18.jpeg",
+      "/Aircraft/QantasWunalaDreamingOJB/19.jpeg",
+      "/Aircraft/QantasWunalaDreamingOJB/20.jpeg",
+      "/Aircraft/QantasWunalaDreamingOJB/21.jpeg",
+      "/Aircraft/QantasWunalaDreamingOJB/22.jpeg",
+      "/Aircraft/QantasWunalaDreamingOJB/23.jpeg",
+      "/Aircraft/QantasWunalaDreamingOJB/24.jpeg",
+      "/Aircraft/QantasWunalaDreamingOJB/25.jpeg",
+      "/Aircraft/QantasWunalaDreamingOJB/26.jpeg",
+    ],
+  },
+  {
+    id: 21,
+    name: "Rossiya",
+    description: "",
+    mainImage: "/Aircraft/Rossiya/01.jpeg",
+    galleryImages: [
+      "/Aircraft/Rossiya/1.jpeg",
+      "/Aircraft/Rossiya/2.jpeg",
+      "/Aircraft/Rossiya/3.jpeg",
+      "/Aircraft/Rossiya/4.jpeg",
+      "/Aircraft/Rossiya/5.jpeg",
+      "/Aircraft/Rossiya/6.jpeg",
+      "/Aircraft/Rossiya/7.jpeg",
+      "/Aircraft/Rossiya/8.jpeg",
+      "/Aircraft/Rossiya/9.jpeg",
+      "/Aircraft/Rossiya/10.jpeg",
+      "/Aircraft/Rossiya/11.jpeg",
+      "/Aircraft/Rossiya/12.jpeg",
+    ],
+  },
+  {
+    id: 22,
+    name: "South African olympic",
+    description: "",
+    mainImage: "/Aircraft/SouthAfricanolympic/01.jpeg",
+    galleryImages: [
+      "/Aircraft/SouthAfricanolympic/1.jpeg",
+      "/Aircraft/SouthAfricanolympic/2.jpeg",
+      "/Aircraft/SouthAfricanolympic/3.jpeg",
+      "/Aircraft/SouthAfricanolympic/4.jpeg",
+      "/Aircraft/SouthAfricanolympic/5.jpeg",
+      "/Aircraft/SouthAfricanolympic/6.jpeg",
+      "/Aircraft/SouthAfricanolympic/7.jpeg",
+      "/Aircraft/SouthAfricanolympic/8.jpeg",
+      "/Aircraft/SouthAfricanolympic/9.jpeg",
+      "/Aircraft/SouthAfricanolympic/10.jpeg",
+      "/Aircraft/SouthAfricanolympic/11.jpeg",
+      "/Aircraft/SouthAfricanolympic/12.jpeg",
+    ],
+  },
+  {
+    id: 23,
+    name: "South African SP",
+    description: "",
+    mainImage: "/Aircraft/SouthAfricanSP/01.jpeg",
+    galleryImages: [
+      "/Aircraft/SouthAfricanSP/1.jpeg",
+      "/Aircraft/SouthAfricanSP/2.jpeg",
+      "/Aircraft/SouthAfricanSP/3.jpeg",
+      "/Aircraft/SouthAfricanSP/4.jpeg",
+      "/Aircraft/SouthAfricanSP/5.jpeg",
+      "/Aircraft/SouthAfricanSP/6.jpeg",
+      "/Aircraft/SouthAfricanSP/7.jpeg",
+      "/Aircraft/SouthAfricanSP/8.jpeg",
+      "/Aircraft/SouthAfricanSP/9.jpeg",
+      "/Aircraft/SouthAfricanSP/10.jpeg",
+      "/Aircraft/SouthAfricanSP/11.jpeg",
+      "/Aircraft/SouthAfricanSP/12.jpeg",
+    ],
+  }
   ];
 
 export const getProductById = (id: number): Product | undefined => {

@@ -128,10 +128,8 @@ const ProductCarousel = () => {
           const displayProducts = carousel.AllProducts.slice(currentIndex, currentIndex + displaySize);
 
           return (
-            <div key={carousel.id} className="relative bg-gray-50 p-4 sm:p-6 rounded-lg" 
-            
-            >
-              <h2 className="text-lg sm:text-2xl font-bold mb-4 sm:mb-6">{carousel.title}</h2>
+            <div key={carousel.id} className="relative bg-gray-50 p-4 sm:p-6 rounded-lg">
+              {/* Removed the title here */}
               
               <div className="relative">
                 {/* Carousel Navigation - Only show if there are more products than display size */}

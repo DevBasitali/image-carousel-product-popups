@@ -1,4 +1,3 @@
-
 interface Product {
   id: number;
   name: string;
@@ -30,12 +29,10 @@ const ProductCard = ({ product, onClick }: ProductCardProps) => {
       </div>
       
       <div className="p-6">
-        <h3 className="text-xl font-semibold text-gray-800 mb-2">
+        <h3 className="text-xl font-semibold text-gray-800">
           {product.name}
         </h3>
-        <p className="text-gray-600 text-sm leading-relaxed">
-          {product.description}
-        </p>
+        {/* Removed the description paragraph */}
       </div>
     </div>
   );

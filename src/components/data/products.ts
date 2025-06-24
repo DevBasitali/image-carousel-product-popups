@@ -48,7 +48,7 @@ export const AllProducts: Product[] = [
     {
     id: 1,
     name: "Air Jamaica",
-    description: "",
+    description: "Air Jamaica Airbus A340-300 6Y-JMP (1987–2010 Colours) Limited Edition of only 120 made.",
     mainImage: "/Aircraft/AirJamaica/01.jpeg",
     galleryImages: [
       "/Aircraft/AirJamaica/1.jpeg",
@@ -64,7 +64,7 @@ export const AllProducts: Product[] = [
   {
     id: 2,
     name: "Alitalia",
-    description: "",
+    description: "Alitalia Boeing 747-100 I-DEMA_Niel Armstrong_sold out since 2009. Inflight 200. This was Alitalia’s very first Boeing 747 and it's also a historic aircraft. One of the rarest models ever",
     mainImage: "/Aircraft/Alitalia/01.jpeg",
     galleryImages: [
       "/Aircraft/Alitalia/1.jpeg",
@@ -84,7 +84,7 @@ export const AllProducts: Product[] = [
   {
     id: 3,
     name: "ANA #1",
-    description: "",
+    description: "ANA Boeing 747-481D Pokemon #1. BlueBox200 Inflight200 mould. JA8965, very first Pokemon jet in the late 90s. Most iconic of all versions.",
     mainImage: "/Aircraft/ANA1/01.jpeg",
     galleryImages: [
       "/Aircraft/ANA1/1.jpeg",
@@ -98,7 +98,7 @@ export const AllProducts: Product[] = [
   {
     id: 4,
     name: "ANA domestic",
-    description: "",
+    description: "ANA Boeing 747-481D Domestic JA8964 Pokemon Jen #2. Inflight200. This was ANA’s second Pokemon jet in their golden era of special colours poketmbnsters jumbos.",
     mainImage: "/Aircraft/ANAdomestic/01.jpeg",
     galleryImages: [
       "/Aircraft/ANAdomestic/1.jpeg",
@@ -114,7 +114,7 @@ export const AllProducts: Product[] = [
   {
     id: 5,
     name: "Ansett Syd 2000",
-    description: "",
+    description: "Ansett Australia Boeing 747-300 VH-INJ special colours Sydney 2000 limited edition sold out since 2015",
     mainImage: "/Aircraft/AnsettSyd2000/01.jpeg",
     galleryImages: [
       "/Aircraft/AnsettSyd2000/1.jpeg",
@@ -134,7 +134,7 @@ export const AllProducts: Product[] = [
   {
     id: 6,
     name: "Braniff Calder",
-    description: "",
+    description: "Braniff International Douglas DC-8-62 Calder Design Latin America N1805. This is the historic Braniff International Douglas DC-8-62 that was painted by Alexander Calder, a renown artist designer in the 1960s.",
     mainImage: "/Aircraft/BraniffCalder/01.jpeg",
     galleryImages: [
       "/Aircraft/BraniffCalder/1.jpeg",
@@ -163,7 +163,7 @@ export const AllProducts: Product[] = [
   {
     id: 7,
     name: "British Caledonian",
-    description: "",
+    description: "British Caledonian Boeing 747-200 G-BJXN, limited edition model released in 2011, capturing the classic golden lion livery from the 1980s.",
     mainImage: "/Aircraft/BritishCaledonian/01.jpeg",
     galleryImages: [
       "/Aircraft/BritishCaledonian/1.jpeg",
@@ -183,7 +183,7 @@ export const AllProducts: Product[] = [
   {
     id: 8,
     name: "Cathay Pacific",
-    description: "",
+    description: "Cathay Pacific Boeing 747-400 B-HOT “The Spirit of Hong Kong” special livery, commemorating Hong Kong’s return to China in 1997.",
     mainImage: "/Aircraft/CathayPacific/01.jpeg",
     galleryImages: [
       "/Aircraft/CathayPacific/1.jpeg",
@@ -203,7 +203,7 @@ export const AllProducts: Product[] = [
   {
     id: 9,
     name: "EL AL 747",
-    description: "",
+    description: "EL AL Israel Airlines Boeing 747-400 4X-ELA in classic 1990s livery, a symbol of Israeli long-haul aviation, retired in 2019.",
     mainImage: "/Aircraft/ELAL747/01.jpeg",
     galleryImages: [
       "/Aircraft/ELAL747/1.jpeg",
@@ -223,7 +223,7 @@ export const AllProducts: Product[] = [
   {
     id: 10,
     name: "Etihad F1",
-    description: "",
+    description: "Etihad Airways Boeing 747-8F in Formula 1 special livery, celebrating the airline’s sponsorship of F1 events in the Middle East.",
     mainImage: "/Aircraft/EtihadF1/01.jpeg",
     galleryImages: [
       "/Aircraft/EtihadF1/1.jpeg",
@@ -243,7 +243,7 @@ export const AllProducts: Product[] = [
   {
     id: 11,
     name: "Fed Ex",
-    description: "",
+    description: "FedEx Express Boeing 747-8F in global logistics livery. Known for heavy cargo operations across continents with modern freighter jets.",
     mainImage: "/Aircraft/FedEx/01.jpeg",
     galleryImages: [
       "/Aircraft/FedEx/1.jpeg",
@@ -263,7 +263,7 @@ export const AllProducts: Product[] = [
   {
     id: 12,
     name: "JAL disney friends",
-    description: "",
+    description: "Japan Airlines Boeing 747-400 “Disney Friends” special edition. JA8905 featuring Mickey, Donald, and friends. Inflight200 release.",
     mainImage: "/Aircraft/JALdisneyfriends/01.jpeg",
     galleryImages: [
       "/Aircraft/JALdisneyfriends/1.jpeg",
@@ -283,7 +283,7 @@ export const AllProducts: Product[] = [
     {
     id: 13,
     name: "JAL Disney Sweet",
-    description: "",
+    description: "Japan Airlines Boeing 747-400 “Disney Sweet” JA8088 featuring cute and sweet Disney characters, rare collector’s edition.",
     mainImage: "/Aircraft/JALDisneySweet/01.jpeg",
     galleryImages: [
       "/Aircraft/JALDisneySweet/1.jpeg",
@@ -303,7 +303,7 @@ export const AllProducts: Product[] = [
   {
     id: 14,
     name: "Lufthansa Hannover",
-    description: "",
+    description: "Lufthansa Boeing 747-400 D-ABTH “Hannover” city jet. Released by Inflight200 to celebrate Germany’s aviation heritage.",
     mainImage: "/Aircraft/LufthansaHannover/01.jpeg",
     galleryImages: [
       "/Aircraft/LufthansaHannover/1.jpeg",
@@ -323,7 +323,7 @@ export const AllProducts: Product[] = [
   {
     id: 15,
     name: "Philippine Airlines",
-    description: "",
+    description: "Philippine Airlines Boeing 747-400 RP-C7471 in classic sun and flag tail livery. Retired as PAL ended 747 operations.",
     mainImage: "/Aircraft/PhilippineAirlines/01.jpeg",
     galleryImages: [
       "/Aircraft/PhilippineAirlines/1.jpeg",
@@ -343,7 +343,7 @@ export const AllProducts: Product[] = [
   {
     id: 16,
     name: "Qantas Big Red",
-    description: "",
+    description: "Qantas Boeing 747-400 VH-OJU “Lord Howe Island” in red roo livery. Final Inflight200 release of classic Qantas 747 scheme.",
     mainImage: "/Aircraft/QantasBigRed/01.jpeg",
     galleryImages: [
       "/Aircraft/QantasBigRed/1.jpeg",
@@ -363,7 +363,7 @@ export const AllProducts: Product[] = [
   {
     id: 17,
     name: "Qantas city of Wagga Wagga",
-    description: "",
+    description: "Qantas Boeing 747-200 VH-EBW “City of Wagga Wagga”, historical long-haul fleet from the 1980s. Limited release by Inflight.",
     mainImage: "/Aircraft/QantascityofWaggaWagga/01.jpeg",
     galleryImages: [
       "/Aircraft/QantascityofWaggaWagga/1.jpeg",
@@ -383,7 +383,7 @@ export const AllProducts: Product[] = [
   {
     id: 18,
     name: "Qantas F1",
-    description: "",
+    description: "Qantas Boeing 747-400 in Formula 1 Grand Prix livery. Released in mid-2000s, celebrating Qantas’ F1 sponsorship in Australia.",
     mainImage: "/Aircraft/QantasF1/01.jpeg",
     galleryImages: [
       "/Aircraft/QantasF1/1.jpeg",
@@ -403,7 +403,7 @@ export const AllProducts: Product[] = [
   {
     id: 19,
     name: "Qantas Wunala Dreaming OEJ",
-    description: "",
+    description: "Qantas Boeing 747-400 VH-OEJ “Wunala Dreaming” Aboriginal art livery. One of the most iconic special liveries in aviation history.",
     mainImage: "/Aircraft/QantasWunalaDreamingOEJ/01.jpeg",
     galleryImages: [
       "/Aircraft/QantasWunalaDreamingOEJ/1.jpeg",
@@ -423,7 +423,7 @@ export const AllProducts: Product[] = [
   {
     id: 20,
     name: "Qantas Wunala Dreaming OJB",
-    description: "",
+    description: "Qantas Boeing 747-400 VH-OJB “Wunala Dreaming” early version. A beautifully painted aircraft celebrating Aboriginal culture.",
     mainImage: "/Aircraft/QantasWunalaDreamingOJB/01.jpeg",
     galleryImages: [
       "/Aircraft/QantasWunalaDreamingOJB/1.jpeg",
@@ -457,7 +457,7 @@ export const AllProducts: Product[] = [
   {
     id: 21,
     name: "Rossiya",
-    description: "",
+    description: "Rossiya Airlines Boeing 747-400 EI-XLD in “Tiger” special livery, promoting wildlife conservation. A unique and bold model release.",
     mainImage: "/Aircraft/Rossiya/01.jpeg",
     galleryImages: [
       "/Aircraft/Rossiya/1.jpeg",
@@ -477,7 +477,7 @@ export const AllProducts: Product[] = [
   {
     id: 22,
     name: "South African olympic",
-    description: "",
+    description: "South African Airways Boeing 747-300 ZS-SAJ in Olympic 2000 Sydney livery. A rare model celebrating sports and aviation.",
     mainImage: "/Aircraft/SouthAfricanolympic/01.jpeg",
     galleryImages: [
       "/Aircraft/SouthAfricanolympic/1.jpeg",
@@ -497,7 +497,7 @@ export const AllProducts: Product[] = [
   {
     id: 23,
     name: "South African SP",
-    description: "",
+    description: "South African Airways Boeing 747SP ZS-SPC in classic springbok tail design. Ultra-short 747 variant, highly collectible model.",
     mainImage: "/Aircraft/SouthAfricanSP/01.jpeg",
     galleryImages: [
       "/Aircraft/SouthAfricanSP/1.jpeg",

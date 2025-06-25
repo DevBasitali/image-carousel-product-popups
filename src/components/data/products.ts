@@ -82,7 +82,7 @@ export const AllProducts: Product[] = [
     galleryImages: [
       "/Aircraft/ANA1/1.jpeg",
       "/Aircraft/ANA1/2.jpeg",
-      "/Aircraft/ANA11/3.jpeg",
+      "/Aircraft/ANA1/3.jpeg",
       "/Aircraft/ANA1/4.jpeg",
       "/Aircraft/ANA1/5.jpeg",
       "/Aircraft/ANA1/6.jpeg",

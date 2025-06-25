@@ -86,22 +86,22 @@ const Index = () => {
               </div>
             </div> */}
             <div className="relative animate-fade-in-delay-2">
-  <div className="absolute inset-0 bg-gradient-to-r from-blue-50/50 to-purple-50/50 rounded-2xl transform rotate-1 blur-sm" />
-  
-  <div className="relative bg-white/30 backdrop-blur-md rounded-2xl p-6 shadow-lg border border-gray-100/50">
-    <p className="text-lg md:text-xl lg:text-2xl text-gray-600 leading-relaxed font-semibold">
-      Explore our{" "}
-      <span className="font-bold text-blue-500">
-        curated gallery
-      </span>{" "}
-      featuring detailed images of unique aircraft models. Each
-      piece captures the{" "}
-      <span className="font-bold text-purple-500">
-        essence of aviation excellence
-      </span>
-    </p>
-  </div>
-</div>
+              <div className="absolute inset-0 bg-gradient-to-r from-blue-50/50 to-purple-50/50 rounded-2xl transform rotate-1 blur-sm" />
+
+              <div className="relative bg-white/30 backdrop-blur-md rounded-2xl p-6 shadow-lg border border-gray-100/50">
+                <p className="text-lg md:text-xl lg:text-2xl text-gray-600 leading-relaxed font-semibold">
+                  Explore our{" "}
+                  <span className="font-bold text-blue-500">
+                    curated gallery
+                  </span>{" "}
+                  featuring detailed images of unique aircraft models. Each
+                  piece captures the{" "}
+                  <span className="font-bold text-purple-500">
+                    essence of aviation excellence
+                  </span>
+                </p>
+              </div>
+            </div>
 
             {/* Enhanced Call to Action */}
             <div className="animate-fade-in-delay-3 mt-8">

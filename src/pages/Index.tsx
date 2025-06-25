@@ -3,7 +3,7 @@ import Navigation from "@/components/Navigation";
 
 const Index = () => {
   return (
-    <div className="min-h-screen bg-white-50 bg-[url('/Background/bg3.jpg')] bg-[length:1590px_680px] bg-repeat">
+    <div className="min-h-screen bg-white-50 bg-[url('/Background/bg1.jpeg')] bg-[length:1590px_680px] bg-repeat">
       <Navigation />
       <main className="container mx-auto px-4 py-8">
         <div className="text-center mb-16 relative">
@@ -14,11 +14,11 @@ const Index = () => {
           </div>
           
           {/* Main heading with gradient and animation */}
-          <h1 className="relative text-5xl md:text-6xl lg:text-7xl font-bold mb-8 animate-fade-in">
+          <h1 className="relative text-5xl md:text-6xl lg:text-7xl font-bold mb-8 animate-fade-in mt-28">
             <span className="bg-gradient-to-r from-blue-600 via-indigo-600 to-purple-600 bg-clip-text text-transparent">
               Airlines
             </span>
-            <span className="text-gray-800"> of the </span>
+            <span className="text-gray-100"> of the </span>
             <span className="bg-gradient-to-r from-purple-600 via-pink-600 to-red-600 bg-clip-text text-transparent">
               Sky
             </span>

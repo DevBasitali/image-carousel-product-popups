@@ -13,8 +13,8 @@ const Index = () => {
             <div className="absolute top-0 right-1/4 w-72 h-72 bg-purple-200 rounded-full mix-blend-multiply filter blur-xl opacity-20 animate-blob animation-delay-2000" />
           </div>
 
-          {/* Main heading with gradient and animation */}
-          {/* <h1 className="relative text-5xl md:text-6xl lg:text-7xl font-bold mb-8 animate-fade-in">
+         
+          <h1 className="relative text-5xl md:text-6xl lg:text-7xl font-bold mb-8 animate-fade-in">
             <span className="bg-gradient-to-r from-blue-600 via-indigo-600 to-purple-600 bg-clip-text text-transparent">
               Airlines
             </span>
@@ -22,7 +22,7 @@ const Index = () => {
             <span className="bg-gradient-to-r from-purple-600 via-pink-600 to-red-600 bg-clip-text text-transparent">
               Sky
             </span>
-          </h1> */}
+          </h1>
 
           {/* Enhanced subtitle section */}
           <div className="max-w-4xl mx-auto space-y-6">
